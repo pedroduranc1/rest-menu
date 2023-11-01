@@ -6,7 +6,7 @@ function App() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    navigate('/es')
+    navigate('/es/botanas')
   }, [])
   
 
