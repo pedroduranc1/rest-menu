@@ -10,7 +10,7 @@ export const SelectedOption = ({ option }) => {
   useEffect(() => {
     setMenuList(menu);
 
-    const filteredData = filtrarPlatosPorTipo(MenuList, option.toUpperCase());
+    const filteredData = filtrarPlatosPorTipo(MenuList, option?.toUpperCase());
     setFilterData(filteredData);
   }, [MenuList,option]);
 
