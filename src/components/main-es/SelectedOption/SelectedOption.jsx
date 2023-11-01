@@ -1,18 +1,24 @@
 import React, { useEffect, useState } from "react";
-import { menu } from "../../../data/menuEs";
+import { menu as MenuEs } from "../../../data/menuEs";
+import { menu as MenuEn } from "../../../data/menuEn";
 import { CardPlato } from "../../ui/CardPlato";
 import { filtrarPlatosPorTipo } from "../../../utils/func";
 
-export const SelectedOption = ({ option }) => {
+export const SelectedOption = ({ leng , option}) => {
   const [MenuList, setMenuList] = useState(null);
   const [FilterData, setFilterData] = useState(null);
 
   useEffect(() => {
-    setMenuList(menu);
+    if (leng == "es") {
+      setMenuList(MenuEs);
+    } else {
+      setMenuList(MenuEn);
+    }
+    let optionEmpty = leng == "es" ? "botanas" : "appetizers";
 
-    const filteredData = filtrarPlatosPorTipo(MenuList, option?.toUpperCase());
+    const filteredData = filtrarPlatosPorTipo(MenuList, option ? option?.toUpperCase() : optionEmpty?.toUpperCase());
     setFilterData(filteredData);
-  }, [MenuList,option]);
+  }, [MenuList, option,leng]);
 
 
   return (
@@ -20,7 +26,7 @@ export const SelectedOption = ({ option }) => {
       {FilterData && (
         <>
           {FilterData.map((plato,index) => 
-            <CardPlato key={index} nombre={plato.nombre} info={plato.info} descripcion={plato.descripcion} />
+            <CardPlato key={index} leng={leng} nombre={plato.nombre} info={plato.info} descripcion={plato.descripcion} />
           )}
         </>
       )}

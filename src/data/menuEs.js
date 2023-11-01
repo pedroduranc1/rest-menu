@@ -50,83 +50,84 @@ export const menu = {
         {
             "nombre": "ARROZ CON POLLO Y MOLE DE LA AHUELA 'plato de mi abuela'",
             "descripcion": "pollo marinado en miel de agave y pasta de chile morita, al grill, sobre una cama de arroz de boda, salseado de mole de rancho con salteado de manzana flameadas con frutos secos, fritura de camote y plátano macho.",
-            "info": "200gr de pollo, 200gr de arroz"
+            "info": "200gr"
         },
         {
             "nombre": "ASADO DEL HUAJUCO",
             "descripcion": "asado de espaldilla y lomo de cerdo con la receta de la casa de 5 chiles y condimentos, arroz de boda, acompañado serrano y cebolla curtidos en jugo de limón y especies, tortilla de harina recién echa ribeteada.",
-            "info": "300gr de asado, 200gr de arroz"
+            "info": "300gr"
         },
         {
             "nombre": "CASUELA BARBACOA DE POZO",
             "descripcion": "barbacoa de labio marinada en cerveza Brown ale 'de la casa' y especies cocción de 12hr en brasa de mezquite acompañado con frijoles con veneno, salsa prehispánica, jardín, tortillas recién echas, jugo de carne.",
-            "info": "300gr de barbacoa, 200gr de frijoles"
+            "info": "300gr"
         },
         {
             "nombre": "CORTADILLO NORTEÑO DE RIB EYE",
             "descripcion": "rib eye confitados en su grasa, con especias con un caldillo de recaudo rojo, acompañado de arroz de rancho, y curtido de chile y cebolla, tortillas recién echas.",
-            "info": "300gr de rib eye, 200gr de arroz"
+            "info": "300gr"
         },
     ],
     "TACOS": [
         {
             "nombre": "TACOS ARRACHER 'los norteños'",
             "descripcion": "arrachera en término ¾, marinada de 6hr, asadas en leña de mezquite, con una costra de queso de base, acompañado de shot de pico de gallo marinado y cremoso de aguacate.",
-            "info": "4pz de arrachera"
+            "info": "4pz"
         },
-        {
-            "nombre": "GAONERA DE RIB EYE",
-            "descripcion": "rib eye sellada al grill marinado en jugo de cítricos sal pimienta y especies tortilla recién echa con frijoles negros con veneno acompañado de shot de pico de gallo, guacamole mamuca, y tuétano asado con costra.",
-            "info": "4pz de rib eye"
-        },
+        
         {
             "nombre": "TACO DE CARNITA 'estilo norestense'",
             "descripcion": "cerdo marinado y confitado, aromatizado con cítricos y especies, acompañado de salsa curtida, cremoso de aguacate y crujiente de chicharrón.",
-            "info": "4pz de cerdo"
+            "info": "4pz"
         },
         {
             "nombre": "TACO DE MOLLEJAS",
             "descripcion": "molleja marinada y asada en brasa de mesquite salteadas en adobo de agave y guajillo acompañada de guacamole y salsa de chile piquin reposado.",
-            "info": "3pz de molleja"
+            "info": "3pz"
         },
         {
             "nombre": "TACO TROMPO NEGRO 'los de barrio'",
             "descripcion": "trompo de barrio adobado negro sellado con leña, acompañado de pico de gallo de piña asada y clásica cebolla y papitas de galeana asadas, salsa de cacahuate.",
-            "info": "4pz de trompo"
+            "info": "4pz"
         },
     ],
     "ALLGRILL": [
         {
             "nombre": "TAPA DE RIB EYE",
             "descripcion": "Rib Eye angus ¾, acompañada de papas trufadas, cebolla y chiles con salsa negra.",
-            "info": "400gr de Rib Eye"
+            "info": "400gr"
         },
         {
             "nombre": "ARRACHERA AL GRILL",
             "descripcion": "Arrachera angus ¾, acompañada de papas trufadas y vegetales al grill.",
-            "info": "300gr de Arrachera"
+            "info": "300gr"
         },
         {
             "nombre": "MUSLITOS ADOBADOS AL TAJIN",
             "descripcion": "acompañado de aderezo de piquin, papas salteadas y con fritura de cebolla.",
-            "info": "500gr de Muslitos"
+            "info": "500gr"
         },
     ],
     "POSTRES": [
         {
             "nombre": "CHEESCAKE DE PLATANO",
             "descripcion": "Crujiente base de galleta de mantequilla horneada en leña, un relleno de queso cremado, con cobertura de plátano y nuez flameada, Acompañado de salsa de dulce de leche y Brown ale.",
-            "info": "2pz de Cheesecake"
+            "info": "2pz"
         },
         {
             "nombre": "GLORIA CON QUESO AL GRILL",
             "descripcion": "Crujiente rollito de gloria con quesillo, acompañada de nueces caramelizadas y nieve de Papantla.",
-            "info": "2pz de Gloria con Queso"
+            "info": "2pz"
         },
         {
             "nombre": "GORDITAS DE NATA",
             "descripcion": "Esponjosas gorditas acompañadas de miel agave, mantequilla con avellana, salsa de frutos rojos y nieve de caramelo.",
-            "info": "3pz de Gorditas"
+            "info": "3pz"
+        },
+        {
+            "nombre": "GAONERA DE RIB EYE",
+            "descripcion": "rib eye sellada al grill marinado en jugo de cítricos sal pimienta y especies tortilla recién echa con frijoles negros con veneno acompañado de shot de pico de gallo, guacamole mamuca, y tuétano asado con costra.",
+            "info": "4pz"
         },
     ]
 };

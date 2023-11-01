@@ -1,16 +1,12 @@
 import "./App.css";
-import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { App as Main } from "./components/main-es/App";
 
 function App() {
-  const navigate = useNavigate()
 
-  useEffect(() => {
-    navigate('/es/botanas')
-  }, [])
-  
-
-  return <></>;
+  const {leng,option} = useParams()
+ 
+  return <Main leng={leng} option={option}/>;
 }
 
 export default App;

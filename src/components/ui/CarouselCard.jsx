@@ -7,53 +7,77 @@ import AllGrill from "../../assets/Iconosalgrill.svg";
 import Postres from "../../assets/IconosPostres.svg";
 import { Link } from "react-router-dom";
 
-export const CarouselCard = ({ focussed, title, ruta }) => {
+export const CarouselCard = ({ leng, title, ruta }) => {
   const [Ruta, setRuta] = useState(null);
 
   useEffect(() => {
     if (ruta === undefined) {
-      setRuta("botanas");
+      if (leng === "es") {
+        setRuta("botanas");
+      } else {
+        setRuta("appetizers");
+      }
     } else {
       setRuta(ruta);
     }
   }, [ruta]);
 
   const ImagenCard = () => {
-    let imagen 
-    switch (title) {
-      case "botanas":
-        imagen = Botanas
-        break;
-      case "platillos":
-        imagen = Platillos
-        break;
-      case "tacos":
-        imagen = Tacos
-        break;
-      case "allgrill":
-        imagen = AllGrill
-        break;
-      case "postres":
-        imagen = Postres
-        break;
+    let imagen;
+    if(leng === 'es'){
+      switch (title) {
+        case "botanas":
+          imagen = Botanas;
+          break;
+        case "platillos":
+          imagen = Platillos;
+          break;
+        case "tacos":
+          imagen = Tacos;
+          break;
+        case "allgrill":
+          imagen = AllGrill;
+          break;
+        case "postres":
+          imagen = Postres;
+          break;
+      }
+    }else{
+      switch (title) {
+        case "appetizers":
+          imagen = Botanas;
+          break;
+        case "maincourses":
+          imagen = Platillos;
+          break;
+        case "tacos":
+          imagen = Tacos;
+          break;
+        case "allgrill":
+          imagen = AllGrill;
+          break;
+        case "desserts":
+          imagen = Postres;
+          break;
+      }
     }
+    
 
-    return imagen
+    return imagen;
   };
-
 
   return (
     <>
       {/* CARD OPTION */}
       <Link
-        to={`/es/${title}`}
-        className="bg-white flex flex-col justify-center items-center w-[20%] h-full"
+        to={`/${leng}/${title}`}
+        className=" flex flex-col justify-center items-center w-[20%] h-full"
       >
         <div className="w-full h-full flex gap-y-1 flex-col justify-center items-center">
           <img
             className={`${
               Ruta === title ? "bg-color-secondary" : "bg-color-primary"
-            } w-[80px] rounded-full`}
+            } w-[60px] rounded-full`}
             src={ImagenCard()}
             alt=""
           />
