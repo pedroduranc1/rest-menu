@@ -1,4 +1,3 @@
-import { Salad } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import Botanas from "../../assets/IconosBotanas.svg";
 import Platillos from "../../assets/IconosPlatillos.svg";
@@ -24,7 +23,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
 
   const ImagenCard = () => {
     let imagen;
-    if(leng === 'es'){
+    if (leng === "es") {
       switch (title) {
         case "botanas":
           imagen = Botanas;
@@ -41,8 +40,14 @@ export const CarouselCard = ({ leng, title, ruta }) => {
         case "postres":
           imagen = Postres;
           break;
+        case "salsas":
+          imagen = Botanas;
+          break;
+        case "extras":
+          imagen = Botanas;
+          break;
       }
-    }else{
+    } else {
       switch (title) {
         case "appetizers":
           imagen = Botanas;
@@ -59,9 +64,14 @@ export const CarouselCard = ({ leng, title, ruta }) => {
         case "desserts":
           imagen = Postres;
           break;
+        case "sauces":
+          imagen = Botanas;
+          break;
+        case "extras":
+          imagen = Botanas;
+          break;
       }
     }
-    
 
     return imagen;
   };
@@ -71,7 +81,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
       {/* CARD OPTION */}
       <Link
         to={`/${leng}/${title}`}
-        className=" flex flex-col justify-center items-center w-[20%] h-full"
+        className=" flex flex-col justify-center items-center w-[100px] h-full"
       >
         <div className="w-full h-full flex gap-y-1 flex-col justify-center items-center">
           <img

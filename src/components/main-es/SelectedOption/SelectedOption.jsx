@@ -21,12 +21,13 @@ export const SelectedOption = ({ leng , option}) => {
   }, [MenuList, option,leng]);
 
 
+
   return (
     <>
       {FilterData && (
         <>
           {FilterData.map((plato,index) => 
-            <CardPlato key={index} leng={leng} nombre={plato.nombre} info={plato.info} descripcion={plato.descripcion} />
+            <CardPlato key={index} leng={leng} nombre={plato.nombre} price={plato.price} descripcion={plato.descripcion} />
           )}
         </>
       )}
