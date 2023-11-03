@@ -91,7 +91,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
             src={ImagenCard()}
             alt=""
           />
-          <h3 className="font-bold text-xl text-color-secondary mb-1 uppercase">
+          <h3 className="font-bold text-xl font-yanone text-color-secondary mb-1 uppercase">
             {title}
           </h3>
         </div>

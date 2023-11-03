@@ -27,7 +27,7 @@ export const SelectedOption = ({ leng , option}) => {
       {FilterData && (
         <>
           {FilterData.map((plato,index) => 
-            <CardPlato key={index} leng={leng} nombre={plato.nombre} price={plato.price} descripcion={plato.descripcion} />
+            <CardPlato key={index} leng={leng} nombre={plato.nombre} price={plato.price} imagenes={plato.imagenes} descripcion={plato.descripcion} />
           )}
         </>
       )}

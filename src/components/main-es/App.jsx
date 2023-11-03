@@ -1,18 +1,19 @@
 import "../../App.css";
-import logo from "../../assets/react.svg";
 import { TextoPrincipal } from "../../components/ui/TextoPrincipal";
 import { CarouselOptions } from "../../components/ui/CarouselOptions";
 import { SelectedOption } from "./SelectedOption/SelectedOption";
+import fondo from "../../assets/staticImages/Foto01.webp";
+import logo from "../../assets/staticImages/Logo- EL HUAJUCO (Blanco).webp";
 
 export const App = ({leng,option}) => {
   
   return (
     <div className="bg-gray-100 h-full">
       {/* imagen logo */}
-      <div className="w-full h-[30vh] flex flex-col justify-center items-center bg-black">
-        <img src={logo} className="w-[7%]" alt="logo imagen" />
-        <h1 className="text-white text-5xl">el huajuco</h1>
-        <h3 className="text-white mt-2">Cocina tradicional y destilado</h3>
+      <div className="w-full h-[30vh] flex flex-col bg-bottom bg-cover bg-no-repeat bg-fixed justify-center items-center "
+        style={{backgroundImage:`url(${fondo})`}}
+      >
+        <img src={logo} className="w-[70%] md:w-[350px]" alt="" />
       </div>
       {/* Content */}
       <div className="w-full px-[5%] md:px-0 md:w-[40%] mx-auto h-fit ">
