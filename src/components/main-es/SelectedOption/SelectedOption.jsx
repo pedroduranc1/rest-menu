@@ -16,11 +16,10 @@ export const SelectedOption = ({ leng , option}) => {
     }
     let optionEmpty = leng == "es" ? "botanas" : "appetizers";
 
+
     const filteredData = filtrarPlatosPorTipo(MenuList, option ? option?.toUpperCase() : optionEmpty?.toUpperCase());
     setFilterData(filteredData);
   }, [MenuList, option,leng]);
-
-
 
   return (
     <>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Separador } from "./Separador";
 import {
   Dialog,
@@ -8,9 +8,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Galeria } from "./Galeria";
 
-export const CardPlato = ({ nombre, descripcion, price, leng,imagenes }) => {
+//LAZY
+import Galeria from "./Galeria";
+
+
+export const CardPlato = ({ nombre, descripcion, price, leng, imagenes }) => {
+
   return (
     <>
       {/* CARD PLATO */}
@@ -37,22 +41,29 @@ export const CardPlato = ({ nombre, descripcion, price, leng,imagenes }) => {
                 {descripcion}
               </p>
 
-              {leng === 'es' ? (<p className="mt-2 text-[13px] underline">Ver imagenes del platillo aqui.</p>) : <p className="mt-2 text-[13px] underline">See food images here.</p>}
+              {leng === "es" ? (
+                <p className="mt-2 text-[13px] underline">
+                  Ver imagenes del platillo aqui.
+                </p>
+              ) : (
+                <p className="mt-2 text-[13px] underline">
+                  See food images here.
+                </p>
+              )}
               <Separador />
             </div>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[80%]">
             <DialogHeader>
-              <DialogTitle className="flex w-full items-center gap-x-3">
-                <h2 className="text-black font-bold text-xl md:text-3xl">{nombre}</h2> - <p className="font-semibold text-xl md:text-3xl">${price}</p>
+              <DialogTitle className="flex w-full items-center gap-x-3 text-black font-bold text-xl md:text-3xl">
+                {nombre} - ${price}
               </DialogTitle>
-              <DialogDescription>
-                <h2 className="text-gray-600 text-start font-semibold text-[15px] md:text-xl">
-                  {descripcion}
-                </h2>
+              <DialogDescription className="text-gray-600 text-start font-semibold text-[15px] md:text-xl">
+                {descripcion}
               </DialogDescription>
             </DialogHeader>
             <Galeria imagenes={imagenes} />
+
           </DialogContent>
         </Dialog>
       </div>

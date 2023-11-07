@@ -4,6 +4,8 @@ import Platillos from "../../assets/IconosPlatillos.svg";
 import Tacos from "../../assets/IconosTacos.svg";
 import AllGrill from "../../assets/Iconosalgrill.svg";
 import Postres from "../../assets/IconosPostres.svg";
+import Salsas from "../../assets/IconosSalsas.svg";
+import Mixto from "../../assets/IconosMixologia.svg";
 import { Link } from "react-router-dom";
 
 export const CarouselCard = ({ leng, title, ruta }) => {
@@ -41,10 +43,10 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Postres;
           break;
         case "salsas":
-          imagen = Botanas;
+          imagen = Salsas;
           break;
         case "extras":
-          imagen = Botanas;
+          imagen = Mixto;
           break;
       }
     } else {
@@ -65,10 +67,10 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Postres;
           break;
         case "sauces":
-          imagen = Botanas;
+          imagen = Salsas;
           break;
         case "extras":
-          imagen = Botanas;
+          imagen = Mixto;
           break;
       }
     }
