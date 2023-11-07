@@ -87,7 +87,7 @@ export const menu = {
     },
     {
       nombre: "MUSLITOS ADOBADOS AL TAJÍN",
-      descripcion: "600gr de muslitos acompañado de aderezo de piquín, papas salteadas y con fritura de cebolla.",
+      descripcion: "600gr de muslitos acompañado de aderezo de piquín, papas salteadas y fritura de cebolla.",
       info: "600gr",
       price: 295,
       imagenes: [foto1, foto2, foto3, foto4, foto5],
