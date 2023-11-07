@@ -69,7 +69,7 @@ export const App = ({ leng, option }) => {
       </div>
       <div
         ref={optionsRef}
-        className={`transition-all  sticky inset-0 px-[5%] md:px-0 md:w-[40%] mx-auto h-fit`}
+        className={`transition-all  sticky inset-0 px-[5%] md:px-0 md:w-[50%] mx-auto h-fit`}
       >
         <CarouselOptions leng={leng} option={option} />
       </div>

@@ -135,10 +135,10 @@ export const CarouselOptions = ({ leng, option }) => {
       {/* CAROUSSEL TIPOS DE COMIDA */}
       <div
         ref={CarouselRef}
-        className="w-full relative  h-fit overflow-auto sm:overflow-hidden py-2"
+        className="w-full relative overflow-auto sm:overflow-hidden h-fit py-2"
       >
         {!screenWidth < 750 && (
-          <div className="h-full w-fit absolute flex justify-center items-center -left-[2%] z-10 top-0  p-4">
+          <div className="h-full w-fit absolute flex justify-center items-center lg:left-[3%] z-10 top-0  p-4">
             <div className="w-fit h-fit flex justify-center items-center   rounded-full">
               <ChevronLeft
                 className=" text-black hidden sm:flex  cursor-pointer w-10 h-10 "
@@ -151,18 +151,18 @@ export const CarouselOptions = ({ leng, option }) => {
 
         <div
           ref={ContentRef}
-          className="w-fit relative bg-slate-100 flex gap-x-3 py-[3%] h-full transition-all"
+          className="relative bg-slate-100   w-fit flex gap-x-3 py-[3%] h-full transition-all"
           style={{ transform: `translateX(${scrollPosition}px)` }}
         >
-          <div className="md:ml-[3%]"></div>
+          <div className="md:ml-[10%]"></div>
           {/* CARD TYPES OF FOOD */}
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}
-          <div className="md:mr-[3%]"></div>
+          <div className="md:mr-[10%]"></div>
         </div>
         {!screenWidth < 750 && (
-          <div className="h-full w-fit absolute flex z-10 justify-center items-center -right-[2%] top-0  p-4">
+          <div className="h-full w-fit absolute flex z-10 justify-center items-center -right-[5%] lg:-right-[1%] top-0  p-4">
             <div className="w-fit h-fit flex  justify-center items-center  rounded-full">
               <ChevronRight
                 className=" text-black hidden sm:flex  cursor-pointer w-10 h-10 "
