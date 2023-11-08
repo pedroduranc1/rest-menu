@@ -14,6 +14,10 @@ export const CarouselOptions = ({ leng, option }) => {
     "allgrill",
     "postres",
     "salsas",
+    "bebidas",
+    "mixologias",
+    "vinos",
+    "destilados",
     "extras",
   ]);
 
@@ -27,6 +31,10 @@ export const CarouselOptions = ({ leng, option }) => {
         "allgrill",
         "postres",
         "salsas",
+        "bebidas",
+        "mixologias",
+        "vinos",
+        "destilados",
         "extras",
       ];
       setTiposDePlato(arrayPlatos);
@@ -38,6 +46,10 @@ export const CarouselOptions = ({ leng, option }) => {
         "allgrill",
         "desserts",
         "sauces",
+        "drinks",
+        "mixologies",
+        "wines",
+        "distillates",
         "extras",
       ];
       setTiposDePlato(arrayPlatos);
@@ -154,12 +166,12 @@ export const CarouselOptions = ({ leng, option }) => {
           className="relative bg-slate-100 w-fit flex gap-x-3 py-[3%] h-full transition-all"
           style={{ transform: `translateX(${scrollPosition}px)` }}
         >
-          <div className="md:ml-[7%] lg:ml-[10%]"></div>
+          <div className="md:ml-[7%] lg:ml-[5%]"></div>
           {/* CARD TYPES OF FOOD */}
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}
-          <div className="md:mr-[7%] lg:mr-[10%]"></div>
+          <div className="md:mr-[7%] lg:mr-[5%]"></div>
         </div>
         {!screenWidth < 750 && (
           <div className="h-full bg-slate-100 w-fit absolute flex z-10 justify-center items-center -right-[5%] lg:-right-[1%] top-0  p-4">

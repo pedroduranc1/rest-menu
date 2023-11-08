@@ -63,7 +63,7 @@ export const App = ({ leng, option }) => {
       {/* imagen logo */}
       <div
         ref={headerRef}
-        className={`w-full h-[30vh] md:h-[45vh] flex flex-col bg-bottom bg-cover bg-no-repeat bg-fixed justify-center items-center`}
+        className={`w-full h-[30vh] md:h-[45vh] flex flex-col  bg-contain bg-no-repeat justify-center items-center`}
         style={{ backgroundImage: `url(${fondo})` }}
       >
         <img src={logo} className="w-[70%] md:w-[350px]" alt="" />
@@ -79,7 +79,7 @@ export const App = ({ leng, option }) => {
         <TextoPrincipal leng={leng} />
         <SelectedOption leng={leng} option={option} />
       </div>
-      <Footer/>
+      <Footer leng={leng}/>
     </div>
   );
 };

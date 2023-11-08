@@ -6,6 +6,9 @@ import AllGrill from "../../assets/Iconosalgrill.svg";
 import Postres from "../../assets/IconosPostres.svg";
 import Salsas from "../../assets/IconosSalsas.svg";
 import Extra from "../../assets/IconosExtras.svg";
+import Bebidas from "../../assets/IconosVinos.svg";
+import Vinos from "../../assets/IconosVinos.svg";
+import Destilados from "../../assets/IconosDestilados.svg";
 import { Link } from "react-router-dom";
 
 export const CarouselCard = ({ leng, title, ruta }) => {
@@ -45,6 +48,18 @@ export const CarouselCard = ({ leng, title, ruta }) => {
         case "salsas":
           imagen = Salsas;
           break;
+        case "bebidas":
+          imagen = Bebidas;
+          break;
+        case "mixologias":
+          imagen = Bebidas;
+          break;
+        case "vinos":
+          imagen = Vinos;
+          break;
+        case "destilados":
+          imagen = Destilados;
+          break;
         case "extras":
           imagen = Extra;
           break;
@@ -68,6 +83,18 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           break;
         case "sauces":
           imagen = Salsas;
+          break;
+          case "drinks":
+          imagen = Bebidas;
+          break;
+        case "mixologies":
+          imagen = Bebidas;
+          break;
+        case "wines":
+          imagen = Vinos;
+          break;
+        case "distillates":
+          imagen = Destilados;
           break;
         case "extras":
           imagen = Extra;
