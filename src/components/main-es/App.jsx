@@ -5,7 +5,7 @@ import { SelectedOption } from "./SelectedOption/SelectedOption";
 import fondo from "../../assets/staticImages/fondo.jpg";
 import logo from "../../assets/staticImages/Logo- EL HUAJUCO (Blanco).webp";
 import { useEffect, useRef, useState } from "react";
-import { Footer } from "../footer";
+import { Footer } from "../Footer";
 
 export const App = ({ leng, option }) => {
   const headerRef = useRef(null);
