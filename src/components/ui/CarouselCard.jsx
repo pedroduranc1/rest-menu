@@ -6,6 +6,7 @@ import AllGrill from "../../assets/Iconosalgrill.svg";
 import Postres from "../../assets/IconosPostres.svg";
 import Salsas from "../../assets/IconosSalsas.svg";
 import Extra from "../../assets/IconosExtras.svg";
+import Mixologia from "../../assets/IconosMixologia.svg";
 import Bebidas from "../../assets/IconosVinos.svg";
 import Vinos from "../../assets/IconosVinos.svg";
 import Destilados from "../../assets/IconosDestilados.svg";
@@ -49,10 +50,10 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Salsas;
           break;
         case "bebidas":
-          imagen = Bebidas;
+          imagen = Mixologia;
           break;
         case "mixologias":
-          imagen = Bebidas;
+          imagen = Mixologia;
           break;
         case "vinos":
           imagen = Vinos;
@@ -85,10 +86,10 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Salsas;
           break;
           case "drinks":
-          imagen = Bebidas;
+          imagen = Mixologia;
           break;
         case "mixologies":
-          imagen = Bebidas;
+          imagen = Mixologia;
           break;
         case "wines":
           imagen = Vinos;

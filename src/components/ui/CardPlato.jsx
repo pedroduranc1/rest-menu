@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import { Separador } from "./Separador";
 import {
   Dialog,
   DialogContent,
@@ -50,7 +49,6 @@ export const CardPlato = ({ nombre, descripcion, price, leng, imagenes }) => {
                   See food images here.
                 </p>
               )}
-              <Separador />
             </div>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[80%]">

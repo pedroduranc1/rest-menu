@@ -63,7 +63,7 @@ export const App = ({ leng, option }) => {
       {/* imagen logo */}
       <div
         ref={headerRef}
-        className={`w-full h-[30vh] md:h-[45vh] flex flex-col  bg-contain bg-no-repeat justify-center items-center`}
+        className={`w-full h-[30vh] md:h-[45vh] flex flex-col  md:bg-contain bg-no-repeat justify-center items-center`}
         style={{ backgroundImage: `url(${fondo})` }}
       >
         <img src={logo} className="w-[70%] md:w-[350px]" alt="" />

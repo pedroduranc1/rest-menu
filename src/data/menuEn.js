@@ -393,7 +393,7 @@ export const menu = {
     },
   ],
   DRINKS: [
-    {
+    { 
       nombre: "Soft Drinks",
       descripcion: "355ml",
       price: 40,
@@ -564,7 +564,7 @@ export const menu = {
   ],
   MIXOLOGIES: [
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - PALOMA NEGRA",
       descripcion:
         "Mezcal, lemon juice, agave honey, mint leaf, activated charcoal, and grapefruit top.",
@@ -578,7 +578,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Mojipiña",
       descripcion:
         "Mezcal, natural pineapple, lemon, agave honey, and chili ash.",
@@ -592,7 +592,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Cucumber Mojito",
       descripcion:
         "Mezcal, mint, natural cucumber, agave honey, and sangrita grapefruit top.",
@@ -606,7 +606,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Jamaican",
       descripcion:
         "Mezcal, agave honey, eureka lemon, natural Jamaica, and grapefruit top.",
@@ -620,7 +620,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Apple Jarrito",
       descripcion:
         "Madero blanco, Topo Chico, natural grapefruit juice, Santiago apple liqueur, and agave honey.",
@@ -634,7 +634,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Black Beer",
       descripcion:
         "Choice beer, dried meat, petroleum, charred lemon juice, wild celery, and lifting sauce.",
@@ -648,7 +648,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Mango Passion",
       descripcion:
         "Tequila, passion fruit, natural mango, lime juice, agave honey, mineral water, and chili powder.",
@@ -662,7 +662,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Cucumber Gin",
       descripcion: "",
       price: 125,
@@ -675,7 +675,7 @@ export const menu = {
       ],
     },
     {
-      type: "Mixology",
+      tipo: "Mixology",
       nombre: "House Mixology - Fruit Gin",
       descripcion: "",
       price: 125,
@@ -690,7 +690,7 @@ export const menu = {
   ],
   WINES: [
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "3v Cabernet",
       descripcion: "",
       price: 285,
@@ -703,7 +703,7 @@ export const menu = {
       ],
     },
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "V Shiraz Rosé",
       descripcion: "",
       price: 244,
@@ -716,7 +716,7 @@ export const menu = {
       ],
     },
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "2v Chardonnay Blanco",
       descripcion: "",
       price: 244,
@@ -729,7 +729,7 @@ export const menu = {
       ],
     },
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "L.A. Cetto Zinfandel",
       descripcion: "",
       price: 152,
@@ -742,7 +742,7 @@ export const menu = {
       ],
     },
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "L.A. Cetto Merlot",
       descripcion: "",
       price: 143,
@@ -755,7 +755,7 @@ export const menu = {
       ],
     },
     {
-      type: "Wines",
+      tipo: "Wines",
       nombre: "L.A. Cetto Nebbiolo",
       descripcion: "",
       price: 218,
@@ -770,7 +770,7 @@ export const menu = {
   ],
   DISTILLATES: [
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "1800 Añejo",
       descripcion: "",
       price: 160,
@@ -783,7 +783,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "1800 Reposado",
       descripcion: "",
       price: 120,
@@ -796,7 +796,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "7 Leguas Blanco",
       descripcion: "",
       price: 0,
@@ -809,7 +809,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "7 Leguas Reposado",
       descripcion: "",
       price: 0,
@@ -822,7 +822,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Casa Dragones Blanco",
       descripcion: "",
       price: 295,
@@ -835,7 +835,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Cascahuin Blanco",
       descripcion: "",
       price: 0,
@@ -848,7 +848,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Cascahuin Tahona",
       descripcion: "",
       price: 0,
@@ -861,7 +861,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Don Julio 70",
       descripcion: "",
       price: 205,
@@ -874,7 +874,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Don Julio Reposado",
       descripcion: "",
       price: 160,
@@ -887,7 +887,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Herradura Reposado",
       descripcion: "",
       price: 150,
@@ -900,7 +900,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Herradura Ultra",
       descripcion: "",
       price: 0,
@@ -913,7 +913,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Maestro Doble Diamante",
       descripcion: "",
       price: 165,
@@ -926,7 +926,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Ocho Blanco",
       descripcion: "",
       price: 0,
@@ -939,7 +939,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Reserva de la Familia Extra Añejo",
       descripcion: "",
       price: 395,
@@ -952,7 +952,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Tradicional Plata",
       descripcion: "",
       price: 105,
@@ -965,7 +965,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Tequila",
+      tipo: "Distilled - Tequila",
       nombre: "Tradicional Reposado",
       descripcion: "",
       price: 115,
@@ -978,7 +978,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "400 Conejos",
       descripcion: "",
       price: 115,
@@ -991,7 +991,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Amaras Joven",
       descripcion: "",
       price: 135,
@@ -1004,7 +1004,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Amormata",
       descripcion: "",
       price: 0,
@@ -1017,7 +1017,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Dos Hombres",
       descripcion: "",
       price: 194,
@@ -1030,7 +1030,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "El Tinieblo",
       descripcion: "",
       price: 0,
@@ -1043,7 +1043,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Guía del Alma",
       descripcion: "",
       price: 0,
@@ -1056,7 +1056,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Machete",
       descripcion: "",
       price: 0,
@@ -1069,7 +1069,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Macurichos",
       descripcion: "",
       price: 0,
@@ -1082,7 +1082,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "María Dolores",
       descripcion: "",
       price: 0,
@@ -1095,7 +1095,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Mezcal 33 Joven",
       descripcion: "",
       price: 203,
@@ -1108,7 +1108,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Mezcal 33 Reposado",
       descripcion: "",
       price: 340,
@@ -1121,7 +1121,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Monte Lobo Espadín",
       descripcion: "",
       price: 135,
@@ -1134,7 +1134,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Ojo de Tigre",
       descripcion: "",
       price: 128,
@@ -1147,7 +1147,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Real Minero",
       descripcion: "",
       price: 0,
@@ -1160,7 +1160,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "Vago",
       descripcion: "",
       price: 0,
@@ -1173,7 +1173,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Mezcal",
+      tipo: "Distilled - Mezcal",
       nombre: "La Venenosa Occidental",
       descripcion: "",
       price: 0,
@@ -1186,7 +1186,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Bacardí Blanco",
       descripcion: "",
       price: 100,
@@ -1199,7 +1199,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Matusalem Platino",
       descripcion: "",
       price: 100,
@@ -1212,7 +1212,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Captain Morgan",
       descripcion: "",
       price: 100,
@@ -1225,7 +1225,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Matusalem Clásico",
       descripcion: "",
       price: 105,
@@ -1238,7 +1238,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Flor de Caña 7 Years",
       descripcion: "",
       price: 105,
@@ -1251,7 +1251,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Havana Club 7 Years",
       descripcion: "",
       price: 118,
@@ -1264,7 +1264,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Zacapa 23",
       descripcion: "",
       price: 245,
@@ -1277,7 +1277,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Zacapa XO",
       descripcion: "",
       price: 476,
@@ -1290,7 +1290,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Dos Maderas 5+3",
       descripcion: "",
       price: 192,
@@ -1303,7 +1303,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Legendario 9 Years",
       descripcion: "",
       price: 144,
@@ -1316,7 +1316,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Santa Teresa",
       descripcion: "",
       price: 259,
@@ -1329,7 +1329,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Rum",
+      tipo: "Distilled - Rum",
       nombre: "Appleton Estate",
       descripcion: "",
       price: 110,
@@ -1342,7 +1342,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Gin",
+      tipo: "Distilled - Gin",
       nombre: "Bombay",
       descripcion: "",
       price: 120,
@@ -1355,7 +1355,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Gin",
+      tipo: "Distilled - Gin",
       nombre: "Hendricks",
       descripcion: "",
       price: 195,
@@ -1368,7 +1368,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Gin",
+      tipo: "Distilled - Gin",
       nombre: "Tanqueray",
       descripcion: "",
       price: 116,
@@ -1381,7 +1381,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Gin",
+      tipo: "Distilled - Gin",
       nombre: "Monkey 47",
       descripcion: "",
       price: 260,
@@ -1394,7 +1394,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Gin",
+      tipo: "Distilled - Gin",
       nombre: "Roku Gin",
       descripcion: "",
       price: 140,
@@ -1407,7 +1407,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Buchanan's 12",
       descripcion: "",
       price: 170,
@@ -1420,7 +1420,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Buchanan's 18",
       descripcion: "",
       price: 0,
@@ -1433,7 +1433,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "JW Black Label",
       descripcion: "",
       price: 180,
@@ -1446,7 +1446,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Chivas Regal",
       descripcion: "",
       price: 145,
@@ -1459,7 +1459,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Jack Daniel's",
       descripcion: "",
       price: 120,
@@ -1472,7 +1472,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Macallan 12",
       descripcion: "",
       price: 370,
@@ -1485,7 +1485,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Glenfiddich 12",
       descripcion: "",
       price: 220,
@@ -1498,7 +1498,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Glenfiddich 18",
       descripcion: "",
       price: 408,
@@ -1511,7 +1511,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Crown Royal",
       descripcion: "",
       price: 155,
@@ -1524,7 +1524,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Whiskey / Bourbon",
+      tipo: "Distilled - Whiskey / Bourbon",
       nombre: "Macallan 12",
       descripcion: "",
       price: 0,
@@ -1537,7 +1537,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Brandy",
+      tipo: "Distilled - Brandy",
       nombre: "Torres 10",
       descripcion: "",
       price: 125,
@@ -1550,7 +1550,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Brandy",
+      tipo: "Distilled - Brandy",
       nombre: "Carlos I",
       descripcion: "",
       price: 215,
@@ -1563,7 +1563,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Cognac",
+      tipo: "Distilled - Cognac",
       nombre: "Hennessy VSOP",
       descripcion: "",
       price: 265,
@@ -1576,7 +1576,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Cognac",
+      tipo: "Distilled - Cognac",
       nombre: "Martell VSOP",
       descripcion: "",
       price: 225,
@@ -1589,7 +1589,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Vodka",
+      tipo: "Distilled - Vodka",
       nombre: "Absolut Blue",
       descripcion: "",
       price: 100,
@@ -1602,7 +1602,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Vodka",
+      tipo: "Distilled - Vodka",
       nombre: "Grey Goose",
       descripcion: "",
       price: 145,
@@ -1615,7 +1615,7 @@ export const menu = {
       ],
     },
     {
-      type: "Distilled - Vodka",
+      tipo: "Distilled - Vodka",
       nombre: "Stolichnaya",
       descripcion: "",
       price: 125,
