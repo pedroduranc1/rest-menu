@@ -138,7 +138,7 @@ export const CarouselOptions = ({ leng, option }) => {
         className="w-full relative overflow-auto sm:overflow-hidden h-fit py-2"
       >
         {!screenWidth < 750 && (
-          <div className="h-full w-fit absolute flex justify-center items-center lg:left-[3%] z-10 top-0  p-4">
+          <div className="h-full w-[5vw] bg-slate-100 absolute flex justify-center items-center lg:left-[3%] z-10 top-0  p-4">
             <div className="w-fit h-fit flex justify-center items-center   rounded-full">
               <ChevronLeft
                 className=" text-black hidden sm:flex  cursor-pointer w-10 h-10 "
@@ -154,15 +154,15 @@ export const CarouselOptions = ({ leng, option }) => {
           className="relative bg-slate-100   w-fit flex gap-x-3 py-[3%] h-full transition-all"
           style={{ transform: `translateX(${scrollPosition}px)` }}
         >
-          <div className="md:ml-[10%]"></div>
+          <div className="md:ml-[7%] lg:ml-[10%]"></div>
           {/* CARD TYPES OF FOOD */}
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}
-          <div className="md:mr-[10%]"></div>
+          <div className="md:mr-[7%] lg:mr-[10%]"></div>
         </div>
         {!screenWidth < 750 && (
-          <div className="h-full w-fit absolute flex z-10 justify-center items-center -right-[5%] lg:-right-[1%] top-0  p-4">
+          <div className="h-full bg-slate-100 w-fit absolute flex z-10 justify-center items-center -right-[5%] lg:-right-[1%] top-0  p-4">
             <div className="w-fit h-fit flex  justify-center items-center  rounded-full">
               <ChevronRight
                 className=" text-black hidden sm:flex  cursor-pointer w-10 h-10 "
