@@ -52,7 +52,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
         case "bebidas":
           imagen = Drinks;
           break;
-        case "mixologias":
+        case "mixología":
           imagen = Mixologia;
           break;
         case "vinos":
@@ -88,7 +88,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           case "drinks":
           imagen = Drinks;
           break;
-        case "mixologies":
+        case "mix":
           imagen = Mixologia;
           break;
         case "wines":

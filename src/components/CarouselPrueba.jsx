@@ -6,7 +6,10 @@ export const Carousel = ({ leng, option }) => {
   const [isScrollingLeft, setIsScrollingLeft] = useState(false);
   const [isScrollingRight, setIsScrollingRight] = useState(false);
   const carousel = useRef(null);
-  const [isFinish, setisFinish] = useState(false)
+  const cardWidth = 100; // Ancho de un elemento CarouselCard en píxeles
+  const setsToShow = 1;
+  const [isFinish, setisFinish] = useState(false);
+  const [isStarted, setisStarted] = useState(false);
 
   const [TiposDePlato, setTiposDePlato] = useState([
     "botanas",
@@ -16,7 +19,7 @@ export const Carousel = ({ leng, option }) => {
     "postres",
     "salsas",
     "bebidas",
-    "mixologias",
+    "mixología",
     "vinos",
     "destilados",
     "extras",
@@ -33,7 +36,7 @@ export const Carousel = ({ leng, option }) => {
         "postres",
         "salsas",
         "bebidas",
-        "mixologias",
+        "mixología",
         "vinos",
         "destilados",
         "extras",
@@ -48,7 +51,7 @@ export const Carousel = ({ leng, option }) => {
         "desserts",
         "sauces",
         "drinks",
-        "mixologies",
+        "mix",
         "wines",
         "distillates",
         "extras",
@@ -66,11 +69,25 @@ export const Carousel = ({ leng, option }) => {
     const isAtScrollEnd =
       container.scrollLeft + container.offsetWidth >= container.scrollWidth;
 
-      setisFinish(isAtScrollEnd)
-      if (isAtScrollEnd) {
-        // Llegaste al final del carrusel, vuelve al principio
-        container.scrollLeft = 0;
-      }
+    const isAtBegining = container.scrollLeft == 0;
+
+    setisFinish(isAtScrollEnd);
+    setisStarted(isAtBegining);
+    if (isStarted) {
+      // Calcula el ancho total del contenido (3 conjuntos de elementos)
+      const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
+
+      // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
+      carousel.current.scrollLeft = totalWidth;
+    }
+    if (isAtScrollEnd) {
+      // Llegaste al final del carrusel, vuelve al principio
+      // Calcula el ancho total del contenido (3 conjuntos de elementos)
+      const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
+
+      // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
+      carousel.current.scrollLeft = totalWidth;
+    }
     const scrollInterval = setInterval(() => {
       if (isScrollingLeft && container.scrollLeft > 0) {
         container.scrollLeft -= 15;
@@ -81,13 +98,21 @@ export const Carousel = ({ leng, option }) => {
     return () => {
       clearInterval(scrollInterval);
     };
-  }, [isScrollingLeft, isScrollingRight,isFinish]);
+  }, [isScrollingLeft, isScrollingRight, isFinish, isStarted]);
+
+  useEffect(() => {
+    // Calcula el ancho total del contenido (3 conjuntos de elementos)
+    const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
+
+    // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
+    carousel.current.scrollLeft = totalWidth;
+  }, []);
 
   return (
     <div className="w-full bg-slate-100 my-4 flex h-[15vh]">
       <div
-        onMouseEnter={() => setIsScrollingLeft(true)}
-        onMouseLeave={() => setIsScrollingLeft(false)}
+        onMouseDown={() => setIsScrollingLeft(true)}
+        onMouseUp={() => setIsScrollingLeft(false)}
         className="w-[10%] hidden cursor-pointer h-full md:flex justify-center items-center bg-slate-100"
       >
         <ChevronLeft size={35} />
@@ -104,12 +129,15 @@ export const Carousel = ({ leng, option }) => {
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}
+          {TiposDePlato.map((item, index) => (
+            <CarouselCard key={index} leng={leng} ruta={option} title={item} />
+          ))}
         </div>
       </div>
 
       <div
-        onMouseEnter={() => setIsScrollingRight(true)}
-        onMouseLeave={() => setIsScrollingRight(false)}
+        onMouseDown={() => setIsScrollingRight(true)}
+        onMouseUp={() => setIsScrollingRight(false)}
         className="w-[10%] cursor-pointer h-full hidden md:flex justify-center items-center bg-slate-100"
       >
         <ChevronRight size={35} />
@@ -119,5 +147,3 @@ export const Carousel = ({ leng, option }) => {
 };
 
 export default Carousel;
-
-

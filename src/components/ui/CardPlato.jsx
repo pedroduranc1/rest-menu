@@ -11,9 +11,14 @@ import {
 //LAZY
 import Galeria from "./Galeria";
 
-
-export const CardPlato = ({ nombre, descripcion, price, leng, imagenes }) => {
-
+export const CardPlato = ({
+  nombre,
+  descripcion,
+  price,
+  leng,
+  imagenes,
+  extra,
+}) => {
   return (
     <>
       {/* CARD PLATO */}
@@ -34,6 +39,12 @@ export const CardPlato = ({ nombre, descripcion, price, leng, imagenes }) => {
                   </span>
                 </div>
               </div>
+
+              {extra && (
+                <p className=" w-[80%] first-letter:uppercase text-[15px] text-color-secondary ">
+                  {extra}
+                </p>
+              )}
 
               {/* DESCRIPCION */}
               <p className="mt-5 w-[80%] first-letter:uppercase text-[15px] text-color-secondary ">
@@ -61,7 +72,6 @@ export const CardPlato = ({ nombre, descripcion, price, leng, imagenes }) => {
               </DialogDescription>
             </DialogHeader>
             <Galeria imagenes={imagenes} />
-
           </DialogContent>
         </Dialog>
       </div>

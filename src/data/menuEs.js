@@ -214,6 +214,7 @@ export const menu = {
         "Salsa clásica de las conocidas carnes asadas, chile serrano, tomate, ajo, cebolla y una cerveza artesanal oscura para reducir.",
       info: "",
       price: 45,
+      extra: "+ Tuétano $95",
       imagenes: [foto1, foto2, foto3, foto4, foto5],
     },
     {
@@ -445,7 +446,7 @@ export const menu = {
       ],
     },
   ],
-  MIXOLOGIAS: [
+  MIXOLOGÍA: [
     {
       tipo: "Mixología",
       nombre: "Coctelería de la Casa - PALOMA NEGRA",

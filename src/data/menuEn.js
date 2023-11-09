@@ -562,7 +562,7 @@ export const menu = {
       ],
     },
   ],
-  MIXOLOGIES: [
+  MIX: [
     {
       tipo: "Mixology",
       nombre: "House Mixology - PALOMA NEGRA",
