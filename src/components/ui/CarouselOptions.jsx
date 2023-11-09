@@ -133,6 +133,28 @@ export const CarouselOptions = ({ leng, option }) => {
     }
   };
 
+  const onDrag = (event) => {
+    const {clientX} = event;
+    const carousel = ContentRef.current;
+
+    const walk = (clientX - carousel.offsetLeft) * 3;
+
+    setScrollPositionDrag(walk);
+  }
+
+  const setScrollPositionDrag = (prevPosition) => {
+    const newPosition = 
+      direction === 'left'
+        ? prevPosition + scrollAmount
+        : prevPosition - scrollAmount;
+
+    if(newPosition > 0) {
+      return 0;
+    }
+
+    return newPosition;
+  }
+
   useEffect(() => {
     // Limpia el intervalo cuando el componente se desmonta
     return () => {
@@ -163,6 +185,8 @@ export const CarouselOptions = ({ leng, option }) => {
 
         <div
           ref={ContentRef}
+          onDrag={onDrag}
+          draggable
           className="relative bg-slate-100 w-fit flex gap-x-3 py-[3%] h-full transition-all"
           style={{ transform: `translateX(${scrollPosition}px)` }}
         >

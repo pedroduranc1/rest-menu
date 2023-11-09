@@ -6,6 +6,7 @@ import fondo from "../../assets/staticImages/fondo.jpg";
 import logo from "../../assets/staticImages/Logo- EL HUAJUCO (Blanco).webp";
 import { useEffect, useRef, useState } from "react";
 import { Footer } from "../Footer";
+import { Carousel } from "../CarouselPrueba";
 
 export const App = ({ leng, option }) => {
   const headerRef = useRef(null);
@@ -72,11 +73,10 @@ export const App = ({ leng, option }) => {
         ref={optionsRef}
         className={`transition-all  sticky inset-0 px-[5%] md:px-0 md:w-[50%] mx-auto h-fit`}
       >
-        <CarouselOptions leng={leng} option={option} />
+        <Carousel leng={leng} option={option}/>
       </div>
       {/* Content */}
       <div className={`w-full  px-[5%] md:px-0 md:w-[40%] mx-auto h-fit`}>
-        <TextoPrincipal leng={leng} />
         <SelectedOption leng={leng} option={option} />
       </div>
       <Footer leng={leng}/>

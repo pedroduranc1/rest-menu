@@ -88,7 +88,7 @@ export const SelectedOption = ({ leng, option }) => {
             <>
               {Object.entries(DestiladosPorTipos).map(([tipo, platos], index) => (
                 <div key={index}>
-                  <h2 className="text-5xl mt-5 text-color-primary uppercase">{tipo}</h2>
+                  <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">{tipo}</h2>
                   <Separador/>
                   {platos.map((plato, platoIndex) => (
                     <div key={platoIndex}>
