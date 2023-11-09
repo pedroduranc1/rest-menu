@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = ({ leng }) => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex mt-[3%] flex-col justify-center items-center">
       <h2 className="font-boowie font-bold text-2xl">
         {" "}
         {leng == "es" ? "Importante" : "Important"}{" "}

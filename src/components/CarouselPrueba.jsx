@@ -6,6 +6,7 @@ export const Carousel = ({ leng, option }) => {
   const [isScrollingLeft, setIsScrollingLeft] = useState(false);
   const [isScrollingRight, setIsScrollingRight] = useState(false);
   const carousel = useRef(null);
+  const [isFinish, setisFinish] = useState(false)
 
   const [TiposDePlato, setTiposDePlato] = useState([
     "botanas",
@@ -65,11 +66,10 @@ export const Carousel = ({ leng, option }) => {
     const isAtScrollEnd =
       container.scrollLeft + container.offsetWidth >= container.scrollWidth;
 
-      if(isAtScrollEnd){
-        let Data = TiposDePlato;
-        let DataDuplicada = Data.concat(Data)
-
-        setTiposDePlato(DataDuplicada)
+      setisFinish(isAtScrollEnd)
+      if (isAtScrollEnd) {
+        // Llegaste al final del carrusel, vuelve al principio
+        container.scrollLeft = 0;
       }
     const scrollInterval = setInterval(() => {
       if (isScrollingLeft && container.scrollLeft > 0) {
@@ -81,10 +81,10 @@ export const Carousel = ({ leng, option }) => {
     return () => {
       clearInterval(scrollInterval);
     };
-  }, [isScrollingLeft, isScrollingRight]);
+  }, [isScrollingLeft, isScrollingRight,isFinish]);
 
   return (
-    <div className="w-full lg:my-5 flex h-[15vh]">
+    <div className="w-full bg-slate-100 my-4 flex h-[15vh]">
       <div
         onMouseEnter={() => setIsScrollingLeft(true)}
         onMouseLeave={() => setIsScrollingLeft(false)}
@@ -98,6 +98,9 @@ export const Carousel = ({ leng, option }) => {
         className="w-full flex scroll-smooth transition-all items-center overflow-x-auto md:overflow-hidden  "
       >
         <div className="flex gap-x-1 transition-all w-fit">
+          {TiposDePlato.map((item, index) => (
+            <CarouselCard key={index} leng={leng} ruta={option} title={item} />
+          ))}
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}
@@ -116,3 +119,5 @@ export const Carousel = ({ leng, option }) => {
 };
 
 export default Carousel;
+
+

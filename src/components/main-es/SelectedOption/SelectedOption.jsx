@@ -111,6 +111,8 @@ export const SelectedOption = ({ leng, option }) => {
         <>
           {FilterData && (
             <>
+              <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">{option}</h2>
+              <Separador/>
               {FilterData.map((plato, index) => (
                 <div key={index}>
                   <CardPlato

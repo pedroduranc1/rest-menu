@@ -7,7 +7,7 @@ import Postres from "../../assets/IconosPostres.svg";
 import Salsas from "../../assets/IconosSalsas.svg";
 import Extra from "../../assets/IconosExtras.svg";
 import Mixologia from "../../assets/IconosMixologia.svg";
-import Bebidas from "../../assets/IconosVinos.svg";
+import Drinks from "../../assets/IconosDrinks.svg";
 import Vinos from "../../assets/IconosVinos.svg";
 import Destilados from "../../assets/IconosDestilados.svg";
 import { Link } from "react-router-dom";
@@ -50,7 +50,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Salsas;
           break;
         case "bebidas":
-          imagen = Mixologia;
+          imagen = Drinks;
           break;
         case "mixologias":
           imagen = Mixologia;
@@ -86,7 +86,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
           imagen = Salsas;
           break;
           case "drinks":
-          imagen = Mixologia;
+          imagen = Drinks;
           break;
         case "mixologies":
           imagen = Mixologia;

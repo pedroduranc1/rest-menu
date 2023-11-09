@@ -1,6 +1,4 @@
 import "../../App.css";
-import { TextoPrincipal } from "../../components/ui/TextoPrincipal";
-import { CarouselOptions } from "../../components/ui/CarouselOptions";
 import { SelectedOption } from "./SelectedOption/SelectedOption";
 import fondo from "../../assets/staticImages/fondo.jpg";
 import logo from "../../assets/staticImages/Logo- EL HUAJUCO (Blanco).webp";
@@ -64,7 +62,7 @@ export const App = ({ leng, option }) => {
       {/* imagen logo */}
       <div
         ref={headerRef}
-        className={`w-full h-[30vh] md:h-[45vh] flex flex-col  md:bg-contain bg-no-repeat justify-center items-center`}
+        className={`w-full h-fit md:h-fit bg-center bg-cover flex flex-col bg-no-repeat justify-center items-center`}
         style={{ backgroundImage: `url(${fondo})` }}
       >
         <img src={logo} className="w-[70%] md:w-[350px]" alt="" />
