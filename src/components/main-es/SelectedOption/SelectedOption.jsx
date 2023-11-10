@@ -98,7 +98,7 @@ export const SelectedOption = ({ leng, option }) => {
       {FilterData && IsSpecial == false ? (
         <>
           <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-            {option === "allgrill" ? "all grill" : option}
+            {Option === "allgrill" ? "all grill" : Option}
           </h2>
           <Separador />
           {FilterData.map((plato, index) => (
