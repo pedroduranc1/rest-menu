@@ -8,12 +8,13 @@ import { Separador } from "../../ui/Separador";
 export const SelectedOption = ({ leng, option }) => {
   const [MenuList, setMenuList] = useState(null);
   const [FilterData, setFilterData] = useState(null);
-  const [TiposDeDestilados, setTiposDeDestilados] = useState(null);
-  const [DestiladosPorTipos, setDestiladosPorTipos] = useState(null);
-  const [BebidasPorTipos, setBebidasPorTipos] = useState(null);
+  const [tiposDeBebida, settiposDeBebida] = useState(null);
+  const [tiposDeDestilado, settiposDeDestilado] = useState(null);
+  const [IsSpecial, setIsSpecial] = useState(false);
+  const [Option, setOption] = useState(null);
 
   useEffect(() => {
-    if (leng == "es") {
+    if (leng === "es") {
       setMenuList(MenuEs);
     } else {
       setMenuList(MenuEn);
@@ -24,64 +25,13 @@ export const SelectedOption = ({ leng, option }) => {
       MenuList,
       option ? option?.toUpperCase() : optionEmpty?.toUpperCase()
     );
+    setOption(option);
     setFilterData(filteredData);
   }, [MenuList, option, leng]);
 
   useEffect(() => {
-    const destilados = [];
-    const tiposDestiladosSet = new Set();
-    if (FilterData) {
-      if (option == "destilados") {
-        FilterData?.forEach((distilado) => {
-          // Suponiendo que "tipo" contiene valores como "Distilled - Tequila"
-          const tipoDestilado = distilado.tipo?.split(" - ")[1];
-
-          if (tipoDestilado) {
-            tiposDestiladosSet.add(tipoDestilado);
-          }
-        });
-
-        // Convertir el conjunto "tiposDestiladosSet" en un array "destilados" sin duplicados
-        tiposDestiladosSet.forEach((tipo) => {
-          destilados.push(tipo);
-        });
-        setTiposDeDestilados(destilados);
-      }
-      if (option == "distillates") {
-        FilterData.forEach((distilado) => {
-          // Suponiendo que "tipo" contiene valores como "Distilled - Tequila"
-          const tipoDestilado = distilado.tipo?.split(" - ")[1];
-
-          if (tipoDestilado) {
-            tiposDestiladosSet.add(tipoDestilado);
-          }
-        });
-
-        // Convertir el conjunto "tiposDestiladosSet" en un array "destilados" sin duplicados
-        tiposDestiladosSet.forEach((tipo) => {
-          destilados.push(tipo);
-        });
-        setTiposDeDestilados(destilados);
-      }
-    }
-  }, [FilterData]);
-
-  useEffect(() => {
-    if (option == "destilados" || option == "distillates") {
-      const platosPorTipo = {};
-      FilterData?.forEach((distilado) => {
-        const tipoDestilado = distilado.tipo?.split(" - ")[1];
-        if (tipoDestilado) {
-          if (!platosPorTipo[tipoDestilado]) {
-            platosPorTipo[tipoDestilado] = [];
-          }
-          platosPorTipo[tipoDestilado].push(distilado);
-        }
-      });
-
-      setDestiladosPorTipos(platosPorTipo);
-    }
-    if (option == "bebidas" || option == "drinks") {
+    if (Option === "bebidas") {
+      setIsSpecial(true);
       const bebidasPorTipo = {};
       FilterData?.forEach((bebidas) => {
         const tipoDeBebida = bebidas?.tipo;
@@ -93,46 +43,95 @@ export const SelectedOption = ({ leng, option }) => {
         }
       });
 
-      setBebidasPorTipos(bebidasPorTipo);
-    }
-  }, [option]);
+      settiposDeBebida(bebidasPorTipo);
+    } else if (Option === "drinks") {
+      setIsSpecial(true);
 
-  if (option === "bebidas" || option === "drinks") return (<>{BebidasPorTipos && (
+      const bebidasPorTipo = {};
+      FilterData?.forEach((bebidas) => {
+        const tipoDeBebida = bebidas?.tipo;
+        if (tipoDeBebida) {
+          if (!bebidasPorTipo[tipoDeBebida]) {
+            bebidasPorTipo[tipoDeBebida] = [];
+          }
+          bebidasPorTipo[tipoDeBebida].push(bebidas);
+        }
+      });
+
+      settiposDeBebida(bebidasPorTipo);
+
+    } else if (Option === "destilados") {
+      setIsSpecial(true);
+      const destiladosPorTipo = {};
+      FilterData?.forEach((destilados) => {
+        const tipoDedestilado = destilados.tipo?.split(" - ")[1];
+        if (tipoDedestilado) {
+          if (!destiladosPorTipo[tipoDedestilado]) {
+            destiladosPorTipo[tipoDedestilado] = [];
+          }
+          destiladosPorTipo[tipoDedestilado].push(destilados);
+        }
+      });
+
+      settiposDeDestilado(destiladosPorTipo);
+    } else if (Option === "distillates") {
+      setIsSpecial(true);
+      const destiladosPorTipo = {};
+      FilterData?.forEach((destilados) => {
+        const tipoDedestilado = destilados.tipo?.split(" - ")[1];
+        if (tipoDedestilado) {
+          if (!destiladosPorTipo[tipoDedestilado]) {
+            destiladosPorTipo[tipoDedestilado] = [];
+          }
+          destiladosPorTipo[tipoDedestilado].push(destilados);
+        }
+      });
+
+      settiposDeDestilado(destiladosPorTipo);
+    } else {
+      setIsSpecial(false);
+    }
+  }, [FilterData,Option]);
+
+  return (
     <>
-      {Object.entries(BebidasPorTipos).map(
-        ([tipo, platos], index) => (
-          <div key={index}>
-            <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-              {tipo}
-            </h2>
-            <Separador />
-            {platos.map((plato, platoIndex) => (
-              <div key={platoIndex}>
-                <CardPlato
-                  leng={leng}
-                  nombre={plato.nombre}
-                  price={plato.price}
-                  imagenes={plato.imagenes}
-                  descripcion={plato.descripcion}
-                />
-                <Separador />
-              </div>
-            ))}
-          </div>
-        )
-      )}
-    </>
-  )}</>);
-  if (option == "destilados" || option == "distillates")
-    return (
-      <>
-        {DestiladosPorTipos && (
+      {FilterData && IsSpecial == false ? (
+        <>
+          <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+            {option === "allgrill" ? "all grill" : option}
+          </h2>
+          <Separador />
+          {FilterData.map((plato, index) => (
+            <div key={index}>
+              <CardPlato
+                leng={leng}
+                nombre={plato.nombre}
+                price={plato.price}
+                imagenes={plato.imagenes}
+                descripcion={plato.descripcion}
+                extra={plato?.extra}
+              />
+              <Separador />
+            </div>
+          ))}
+        </>
+      ) : (
+        <>
+          {Option === "bebidas" || Option === "drinks" ? (
+            <>
+              {tiposDeBebida && (
                 <>
-                  {Object.entries(DestiladosPorTipos).map(
+                  {Object?.entries(tiposDeBebida).map(
                     ([tipo, platos], index) => (
                       <div key={index}>
+                        <p>
+                        {
+                          tipo == "bebidas" && leng == "en" ? "hola" : null
+                        }
+                        </p>
+                        
                         <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-                          {tipo}
+                          {tipo == "bebidas" && leng == "en" ? "drinks" : tipo}
                         </h2>
                         <Separador />
                         {platos.map((plato, platoIndex) => (
@@ -152,30 +151,36 @@ export const SelectedOption = ({ leng, option }) => {
                   )}
                 </>
               )}
-      </>
-    );
-
-  return (
-    <>
-      {FilterData && option !== "bebidas" && (
-        <>
-          <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-            {option === "allgrill" ? "all grill" : option}
-          </h2>
-          <Separador />
-          {FilterData.map((plato, index) => (
-            <div key={index}>
-              <CardPlato
-                leng={leng}
-                nombre={plato.nombre}
-                price={plato.price}
-                imagenes={plato.imagenes}
-                descripcion={plato.descripcion}
-                extra={plato?.extra}
-              />
-              <Separador />
-            </div>
-          ))}
+            </>
+          ) : null}
+          {Option === "destilados" || Option === "distillates" ? (
+            <>{tiposDeDestilado && (
+              <>
+                {Object?.entries(tiposDeDestilado).map(
+                  ([tipo, platos], index) => (
+                    <div key={index}>
+                      <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+                        {tipo}
+                      </h2>
+                      <Separador />
+                      {platos.map((plato, platoIndex) => (
+                        <div key={platoIndex}>
+                          <CardPlato
+                            leng={leng}
+                            nombre={plato.nombre}
+                            price={plato.price}
+                            imagenes={plato.imagenes}
+                            descripcion={plato.descripcion}
+                          />
+                          <Separador />
+                        </div>
+                      ))}
+                    </div>
+                  )
+                )}
+              </>
+            )}</>
+          ) : null}
         </>
       )}
     </>

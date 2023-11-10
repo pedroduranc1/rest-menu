@@ -394,7 +394,7 @@ export const menu = {
   ],
   DRINKS: [
     { 
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Soft Drinks",
       descripcion: "355ml",
       price: 40,
@@ -407,7 +407,7 @@ export const menu = {
       ],
     },
     {
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Natural Lemonade",
       descripcion: "355ml",
       price: 45,
@@ -421,7 +421,7 @@ export const menu = {
       ],
     },
     {
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Mineral Lemonade",
       descripcion: "355ml",
       price: 65,
@@ -434,7 +434,7 @@ export const menu = {
       ],
     },
     {
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Natural Orangeade",
       descripcion: "355ml",
       price: 45,
@@ -447,7 +447,7 @@ export const menu = {
       ],
     },
     {
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Mineral Orangeade",
       descripcion: "355ml",
       price: 45,
@@ -460,7 +460,7 @@ export const menu = {
       ],
     },
     {
-      tipo: "Bebidas",
+      tipo: "drinks",
       nombre: "Topo Chico",
       descripcion: "355ml",
       price: 40,
