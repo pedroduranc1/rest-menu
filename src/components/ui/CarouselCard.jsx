@@ -122,7 +122,7 @@ export const CarouselCard = ({ leng, title, ruta }) => {
             alt=""
           />
           <h3 className="font-bold text-xl font-yanone text-color-secondary mb-1 uppercase">
-            {title}
+            {title === "allgrill" ? "all grill" : title}
           </h3>
         </div>
       </Link>
