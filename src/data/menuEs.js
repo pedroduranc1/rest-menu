@@ -278,6 +278,7 @@ export const menu = {
   ],
   BEBIDAS: [
     {
+      tipo: "Bebidas",
       nombre: "Refrescos",
       descripcion: "355ml",
       price: 40,
@@ -290,6 +291,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Bebidas",
       nombre: "Limonada natural",
       descripcion: "355ml",
       price: 45,
@@ -302,9 +304,11 @@ export const menu = {
       ],
     },
     {
+      tipo: "Bebidas",
       nombre: "Limonada mineral",
       descripcion: "355ml",
       price: 65,
+      extra: "Fresa, frutos rojos, mango y pepino",
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -314,6 +318,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Bebidas",
       nombre: "Naranjada natural",
       descripcion: "355ml",
       price: 45,
@@ -326,6 +331,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Bebidas",
       nombre: "Naranjada mineral",
       descripcion: "355ml",
       price: 45,
@@ -338,6 +344,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Bebidas",
       nombre: "Topo chico",
       descripcion: "355ml",
       price: 40,
@@ -350,6 +357,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Bloody Mary",
       descripcion: "Clásico",
       price: "Variable",
@@ -362,6 +370,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Daiquirí",
       descripcion: "Clásico",
       price: "Variable",
@@ -374,6 +383,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Manhattan",
       descripcion: "Clásico",
       price: "Variable",
@@ -386,6 +396,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Mai Tai",
       descripcion: "Clásico",
       price: "Variable",
@@ -398,6 +409,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Margarita",
       descripcion: "Clásico",
       price: "Variable",
@@ -410,6 +422,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Negroni",
       descripcion: "Clásico",
       price: "Variable",
@@ -422,6 +435,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Old Fashioned",
       descripcion: "Clásico",
       price: "Variable",
@@ -434,6 +448,7 @@ export const menu = {
       ],
     },
     {
+      tipo: "Clasico",
       nombre: "Whisky Sour",
       descripcion: "Clásico",
       price: "Variable",

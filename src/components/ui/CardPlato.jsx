@@ -39,9 +39,9 @@ export const CardPlato = ({
                   </span>
                 </div>
               </div>
-
+              
               {extra && (
-                <p className=" w-[80%] first-letter:uppercase text-[15px] text-color-secondary ">
+                <p className=" w-[80%]  first-letter:uppercase text-[15px] text-color-secondary ">
                   {extra}
                 </p>
               )}

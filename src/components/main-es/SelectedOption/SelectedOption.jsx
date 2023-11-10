@@ -10,6 +10,7 @@ export const SelectedOption = ({ leng, option }) => {
   const [FilterData, setFilterData] = useState(null);
   const [TiposDeDestilados, setTiposDeDestilados] = useState(null);
   const [DestiladosPorTipos, setDestiladosPorTipos] = useState(null);
+  const [BebidasPorTipos, setBebidasPorTipos] = useState(null);
 
   useEffect(() => {
     if (leng == "es") {
@@ -66,68 +67,115 @@ export const SelectedOption = ({ leng, option }) => {
   }, [FilterData]);
 
   useEffect(() => {
-    const platosPorTipo = {};
-    FilterData?.forEach((distilado) => {
-      const tipoDestilado = distilado.tipo?.split(" - ")[1];
-      if (tipoDestilado) {
-        if (!platosPorTipo[tipoDestilado]) {
-          platosPorTipo[tipoDestilado] = [];
+    if (option == "destilados" || option == "distillates") {
+      const platosPorTipo = {};
+      FilterData?.forEach((distilado) => {
+        const tipoDestilado = distilado.tipo?.split(" - ")[1];
+        if (tipoDestilado) {
+          if (!platosPorTipo[tipoDestilado]) {
+            platosPorTipo[tipoDestilado] = [];
+          }
+          platosPorTipo[tipoDestilado].push(distilado);
         }
-        platosPorTipo[tipoDestilado].push(distilado);
-      }
-    });
+      });
 
-    setDestiladosPorTipos(platosPorTipo);
-  }, [TiposDeDestilados]);
+      setDestiladosPorTipos(platosPorTipo);
+    }
+    if (option == "bebidas" || option == "drinks") {
+      const bebidasPorTipo = {};
+      FilterData?.forEach((bebidas) => {
+        const tipoDeBebida = bebidas?.tipo;
+        if (tipoDeBebida) {
+          if (!bebidasPorTipo[tipoDeBebida]) {
+            bebidasPorTipo[tipoDeBebida] = [];
+          }
+          bebidasPorTipo[tipoDeBebida].push(bebidas);
+        }
+      });
+
+      setBebidasPorTipos(bebidasPorTipo);
+    }
+  }, [option]);
+
+  if (option === "bebidas" || option === "drinks") return (<>{BebidasPorTipos && (
+    <>
+      {Object.entries(BebidasPorTipos).map(
+        ([tipo, platos], index) => (
+          <div key={index}>
+            <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+              {tipo}
+            </h2>
+            <Separador />
+            {platos.map((plato, platoIndex) => (
+              <div key={platoIndex}>
+                <CardPlato
+                  leng={leng}
+                  nombre={plato.nombre}
+                  price={plato.price}
+                  imagenes={plato.imagenes}
+                  descripcion={plato.descripcion}
+                />
+                <Separador />
+              </div>
+            ))}
+          </div>
+        )
+      )}
+    </>
+  )}</>);
+  if (option == "destilados" || option == "distillates")
+    return (
+      <>
+        {DestiladosPorTipos && (
+                <>
+                  {Object.entries(DestiladosPorTipos).map(
+                    ([tipo, platos], index) => (
+                      <div key={index}>
+                        <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+                          {tipo}
+                        </h2>
+                        <Separador />
+                        {platos.map((plato, platoIndex) => (
+                          <div key={platoIndex}>
+                            <CardPlato
+                              leng={leng}
+                              nombre={plato.nombre}
+                              price={plato.price}
+                              imagenes={plato.imagenes}
+                              descripcion={plato.descripcion}
+                            />
+                            <Separador />
+                          </div>
+                        ))}
+                      </div>
+                    )
+                  )}
+                </>
+              )}
+      </>
+    );
 
   return (
     <>
-      {option == "destilados" || option == "distillates" ? (
+      {FilterData && option !== "bebidas" && (
         <>
-          {DestiladosPorTipos && (
-            <>
-              {Object.entries(DestiladosPorTipos).map(([tipo, platos], index) => (
-                <div key={index}>
-                  <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">{tipo}</h2>
-                  <Separador/>
-                  {platos.map((plato, platoIndex) => (
-                    <div key={platoIndex}>
-                      <CardPlato
-                        leng={leng}
-                        nombre={plato.nombre}
-                        price={plato.price}
-                        imagenes={plato.imagenes}
-                        descripcion={plato.descripcion}
-                      />
-                      <Separador />
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </>
-          )}
-        </>
-      ) : (
-        <>
-          {FilterData && (
-            <>
-              <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">{option === "allgrill" ? "all grill" : option}</h2>
-              <Separador/>
-              {FilterData.map((plato, index) => (
-                <div key={index}>
-                  <CardPlato
-                    leng={leng}
-                    nombre={plato.nombre}
-                    price={plato.price}
-                    imagenes={plato.imagenes}
-                    descripcion={plato.descripcion}
-                    extra={plato?.extra}
-                  />
-                  <Separador />
-                </div>
-              ))}
-            </>
-          )}
+          <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+            {option === "allgrill" ? "all grill" : option}
+          </h2>
+          <Separador />
+          {FilterData.map((plato, index) => (
+            <div key={index}>
+              <CardPlato
+                leng={leng}
+                nombre={plato.nombre}
+                price={plato.price}
+                imagenes={plato.imagenes}
+                descripcion={plato.descripcion}
+                extra={plato?.extra}
+              />
+              <Separador />
+            </div>
+          ))}
         </>
       )}
     </>
