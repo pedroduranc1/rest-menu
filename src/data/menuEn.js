@@ -19,7 +19,7 @@ export const menu = {
       descripcion:
         "Corn sautéed with garlic, onion, and butter, flavored with epazote, served with garlic chips and fresh cheese.",
       info: "300g",
-      price: 139,
+      price: 149,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -74,8 +74,8 @@ export const menu = {
       nombre: "GRILLED VEGETABLES WITH QUESILLO",
       descripcion:
         "Cauliflower and broccoli grilled with spices, sauced and gratinated with NL cheese, served with piquín dressing.",
-      info: "300g",
-      price: 169,
+      info: "250g",
+      price: 150,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -89,7 +89,7 @@ export const menu = {
       descripcion:
         "Battered and fried cauliflower, bathed in agave honey with morita chili, toasted sesame seeds, and fried leek, served with peanut sauce.",
       info: "300g",
-      price: 159,
+      price: 176,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -161,7 +161,7 @@ export const menu = {
       descripcion:
         "Lip barbacoa marinated in house Brown Ale beer and spices, 12-hour cooking in mesquite embers, accompanied by 'veneno' beans, pre-Hispanic sauce, garden, freshly made tortillas, and meat juice.",
       info: "300g",
-      price: 245,
+      price: 272,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -219,7 +219,7 @@ export const menu = {
       descripcion:
         "Marinated gizzards grilled over mesquite embers, sautéed in agave and guajillo adobo, accompanied by guacamole and aged chili pepper sauce.",
       info: "3 pieces of gizzard",
-      price: 180,
+      price: 186,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -249,7 +249,7 @@ export const menu = {
       descripcion:
         "Ribeye sealed on the grill, marinated in citrus juice, salt, pepper, and spices, freshly made tortilla with black beans with 'veneno,' accompanied by pico de gallo shot, 'Mamuca' guacamole, and roasted marrow with crust.",
       info: "4 pieces of ribeye",
-      price: 215,
+      price: 235,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -393,7 +393,7 @@ export const menu = {
     },
   ],
   DRINKS: [
-    { 
+    {
       tipo: "drinks",
       nombre: "Soft Drinks",
       descripcion: "355ml",

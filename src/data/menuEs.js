@@ -1,8 +1,3 @@
-import foto1 from "../assets/imagenes/pruebas/plato-principal.webp";
-import foto2 from "../assets/imagenes/pruebas/foto1.webp";
-import foto3 from "../assets/imagenes/pruebas/foto2.webp";
-import foto4 from "../assets/imagenes/pruebas/foto3.webp";
-import foto5 from "../assets/imagenes/pruebas/foto4.webp";
 
 export const menu = {
   BOTANAS: [
@@ -12,15 +7,27 @@ export const menu = {
         "2pz de empalme de atropellado, tortilla recién hecha adobada, frijoles negros, quesillo NL., tradicional carne seca guisada con pico de gallo y salsa borracha, acompañado de guacamole mamucas.",
       info: "2pz",
       price: 168,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "ESQUITES 'Teocintle la madre del esquite'",
       descripcion:
         "300gr de elote salteado con ajo, cebolla, mantequilla, aromatizado con epazote, con chips de ajo, queso fresco y tuétano al grill.",
       info: "300gr",
-      price: 139,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      price: 149,
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "FIDEOS REGIOS 'nido de fideos'",
@@ -28,7 +35,13 @@ export const menu = {
         "250gr de fideo sofrito con ajo, cebolla, chorizo, cocción con recaudo rojo, yema cubierta en polvo de nuez de la india, acompañado aderezo de chile de monte ahumado tortillas recién echas.",
       info: "250gr",
       price: 160,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GORDITAS DE CHICHARRON EN SALSA 'los 3 chanchitos'",
@@ -36,7 +49,13 @@ export const menu = {
         "3pz de gordita de masa de nixtamal recién elaborada, rellenas de frijoles negros refritos, 50gr c/u de chicharrón en salsa verde guisada, acompañado de una ensaladilla y espolvoreado de queso fresco.",
       info: "3pz",
       price: 170,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GUACAMOLE HUAJUCO 'guacamole orejudo Huajuco'",
@@ -44,23 +63,41 @@ export const menu = {
         "150gr de chicharrón de lonja elaborado tradicionalmente, 200gr guacamole tradicional martajado, acompañado de cebolla asada y chiles toreados en salsa negra y tortillas recién hechas.",
       info: "200gr",
       price: 194,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GALEANAS AL PIQUIN 'galianas de monte'",
       descripcion:
-        "300gr de papa galeana salteada con sal, pimienta, orégano, y mantequilla de Rib Eye, salseadas en aderezo de piquín de monte y pepitas.",
+        "250gr de papa galeana salteada con sal, pimienta, orégano, y mantequilla de Rib Eye, salseadas en aderezo de piquín de monte y pepitas.",
       info: "300gr",
       price: 150,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "HORTALIZAS ASADAS Y QUESILLO",
       descripcion:
         "300gr de coliflor y brócoli asado con especias, salseado y gratinado con quesillo NL., acompañado de aderezo de piquín.",
       info: "300gr",
-      price: 169,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      price: 176,
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "PALOMITAS DE COLIFLOR",
@@ -68,7 +105,13 @@ export const menu = {
         "250gr de coliflor rebosada y frita, bañados con un aderezo de miel de agave con morita, ajonjolí tostado y poro frito, acompañado de una salsa de cacahuate.",
       info: "250gr",
       price: 159,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "QUESO FLAMEADO DE AGUA FRÍA 'quesillo agua fría flameado'",
@@ -76,7 +119,13 @@ export const menu = {
         "200gr de queso fresco regio, mantequilla de Rib Eye, gratinado acompañado con chorizo de rancho salteado a la mexicana, espolvoreado de ceniza.",
       info: "200gr",
       price: 179,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   ALLGRILL: [
@@ -86,7 +135,13 @@ export const menu = {
         "400gr de Rib Eye angus ¾, acompañada de papas trufadas, cebolla y chiles con salsa negra.",
       info: "400gr",
       price: 685,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "ARRACHERA AL GRILL",
@@ -94,7 +149,13 @@ export const menu = {
         "500gr de arrachera angus ¾, acompañada de papas trufadas y vegetales al grill.",
       info: "500gr",
       price: 465,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "MUSLITOS ADOBADOS AL TAJÍN",
@@ -102,7 +163,13 @@ export const menu = {
         "600gr de muslitos acompañado de aderezo de piquín, papas salteadas y fritura de cebolla.",
       info: "600gr",
       price: 295,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   PLATILLOS: [
@@ -112,7 +179,13 @@ export const menu = {
         "200gr de pollo marinado en miel de agave y pasta de chile morita, al grill, sobre una cama de arroz de boda, salseado de mole de rancho con salteado de manzana flameadas con frutos secos, fritura de camote y plátano macho.",
       info: "200gr",
       price: 196,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "ASADO DEL HUAJUCO",
@@ -120,15 +193,27 @@ export const menu = {
         "300gr de asado de espaldilla y lomo de cerdo con la receta de la casa, 5 chiles y condimentos, arroz de boda, acompañado de serrano y cebolla curtidos en jugo de limón y especies, tortilla de harina recién hecha ribeteada.",
       info: "300gr",
       price: 225,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "CAZUELA DE BARBACOA DE POZO",
       descripcion:
         "300gr de barbacoa de labio marinada en cerveza Brown Ale ‘De la casa’ y especias, cocción de 12hr en brasa de mezquite acompañado de frijoles con veneno, salsa prehispánica, jardín, tortillas recién hechas, jugo de carne.",
       info: "300gr",
-      price: 245,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      price: 272,
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "CORTADILLO NORTEÑO DE RIB EYE",
@@ -136,7 +221,13 @@ export const menu = {
         "300gr de Rib Eye confitados en su grasa, con especias con un caldillo de recaudo rojo, acompañado de arroz de rancho, curtido de chile, cebolla y tortillas recién hechas.",
       info: "300gr",
       price: 255,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   TACOS: [
@@ -146,15 +237,27 @@ export const menu = {
         "4pz - 250gr de arrachera en termino ¾, marinada de 6hr, asadas en leña de mezquite, con una costra de queso de base, acompañado de shot de pico de gallo marinado y cremoso de aguacate.",
       info: "4pz",
       price: 198,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GAONERA DE RIB EYE",
       descripcion:
         "4pz - 200gr de Rib Eye sellada al grill marinado en jugo de cítricos sal pimienta y especies tortilla recién hecha con frijoles negros con veneno acompañado de shot de pico de gallo, guacamole mamucas y tuétano asado con costra.",
       info: "4pz",
-      price: 215,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      price: 235,
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "TACO DE CARNITAS",
@@ -162,15 +265,27 @@ export const menu = {
         "4pz - 200gr de cerdo marinado y confitado, aromatizado con cítricos y especias, acompañado de salsa curtida, cremoso de aguacate y crujiente de chicharrón.",
       info: "4pz",
       price: 180,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "TACO DE MOLLEJAS",
       descripcion:
         "3pz - 200gr de molleja marinada y asada en brasa de mezquite salteadas en adobo de agave y guajillo, acompañada de guacamole y salsa de chile piquín reposado.",
       info: "3pz",
-      price: 180,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      price: 186,
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "TACO TROMPO NEGRO ‘LOS DE BARRIO’",
@@ -178,7 +293,13 @@ export const menu = {
         "4pz - 250gr de tropo de barrio adobado negro sellado con leña, acompañado de pico de gallo de piña asada, clásica cebolla, papitas de galeana asadas y salsa de cacahuate.",
       info: "4pz",
       price: 168,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   POSTRES: [
@@ -188,7 +309,13 @@ export const menu = {
         "Crujiente base de galleta de mantequilla horneada en leña, un relleno de queso cremado, con cobertura de plátano y nuez flameada, Acompañado de salsa de dulce de leche y Brown Ale.",
       info: "",
       price: 195,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GLORIA CON QUESO AL GRILL",
@@ -196,7 +323,13 @@ export const menu = {
         "Crujiente rollito de gloria con quesillo, acompañada de nueces caramelizadas y nieve de papantla.",
       info: "",
       price: 165,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GORDITA DE NATA",
@@ -204,7 +337,13 @@ export const menu = {
         "3pz de esponjosas gorditas acompañadas de miel agave, mantequilla con avellana, salsa de frutos rojos y nieve de caramelo.",
       info: "",
       price: 179,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   SALSAS: [
@@ -215,7 +354,13 @@ export const menu = {
       info: "",
       price: 45,
       extra: "+ Tuétano $95",
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "Prehispánica",
@@ -223,7 +368,13 @@ export const menu = {
         "Mezcla de chiles secos tatemados, jugo de carne, aceite de oliva, ceniza de ajo y cebolla.",
       info: "",
       price: 49,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "tatemada",
@@ -231,7 +382,13 @@ export const menu = {
         "Tomate tatemado en leña, ajo y cebolla rostizada, chile chiltepín un toque de aguacate y cilantro fresco.",
       info: "",
       price: 45,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   EXTRAS: [
@@ -241,7 +398,13 @@ export const menu = {
         "150gr de arroz rojo casero acompañado con salsa de mole y tostones de plátano.",
       info: "",
       price: 65,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "FRIJOLES",
@@ -249,7 +412,13 @@ export const menu = {
         "Frijoles refritos con su buena porción de veneno (asado de cerdo) y queso Cotija.",
       info: "",
       price: 75,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "GUACAMOLE",
@@ -257,7 +426,13 @@ export const menu = {
         "150gr de aguacate martajado acompañado de jardín, salsa de chiltepín y cítricos.",
       info: "",
       price: 85,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "TUÉTANOS",
@@ -265,7 +440,13 @@ export const menu = {
         "3pz de tuétano canoa asado directo en braza de mesquite con mantequilla y costra de trigo, acompañado de cebollitas asadas.",
       info: "",
       price: 125,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
     {
       nombre: "VEGETALES BRASEADO",
@@ -273,7 +454,13 @@ export const menu = {
         "200gr de hortalizas asadas a las brasas con vinagreta de limón eureka y aceite.",
       info: "",
       price: 85,
-      imagenes: [foto1, foto2, foto3, foto4, foto5],
+      imagenes: [
+        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+      ],
     },
   ],
   BEBIDAS: [
