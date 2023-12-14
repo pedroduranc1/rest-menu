@@ -5,6 +5,7 @@ import logo from "../../assets/staticImages/Logo- EL HUAJUCO (Blanco).webp";
 import { useEffect, useRef, useState } from "react";
 import { Footer } from "../Footer";
 import { Carousel } from "../CarouselPrueba";
+import { Link } from "react-router-dom";
 
 export const App = ({ leng, option }) => {
   const headerRef = useRef(null);
@@ -12,6 +13,7 @@ export const App = ({ leng, option }) => {
   const [headerH, setheaderH] = useState(null);
   const [optionsH, setOptionsH] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);  
+  const [BtnOption, setBtnOption] = useState(null)
 
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -51,6 +53,8 @@ export const App = ({ leng, option }) => {
     // Agrega un event listener para el evento scroll
     window.addEventListener("scroll", handleScroll);
 
+    setBtnOption(leng)
+
     // Limpia el event listener cuando el componente se desmonta
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -69,12 +73,20 @@ export const App = ({ leng, option }) => {
       </div>
       <div
         ref={optionsRef}
-        className={`transition-all  sticky inset-0 px-[5%] md:px-0 md:w-[50%] mx-auto h-fit`}
+        className={`transition-all z-50 sticky inset-0 px-[5%] md:px-0 md:w-[50%] mx-auto h-fit`}
       >
+        <div className="mt-[10%] md:mt-0">
+
+        </div>
         <Carousel leng={leng} option={option}/>
+        <div className="flex absolute md:-right-[40%] md:top-0 -top-[30%] space-x-2">
+          <Link to={`/es`} onClick={()=>setBtnOption('es')} className={`uppercase font-bold ${BtnOption == "es" ? "text-orange-400" : ""}`}>español</Link>
+          <span>|</span>
+          <Link to={`/en`} onClick={()=>setBtnOption('en')} className={`uppercase font-bold ${BtnOption == "en" ? "text-orange-400" : ""}`}>ENGLISH</Link>
+        </div>
       </div>
       {/* Content */}
-      <div className={`w-full  px-[5%] md:px-0 md:w-[40%] mx-auto h-fit`}>
+      <div className={`w-full z-10 px-[5%] md:px-0 md:w-[40%] mx-auto h-fit`}>
         <SelectedOption leng={leng} option={option} />
       </div>
       <Footer leng={leng}/>

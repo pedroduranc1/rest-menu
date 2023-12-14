@@ -1,10 +1,10 @@
 export const menu = {
   APPETIZERS: [
     {
-      nombre: "ATROPELLADO EMPALMES 'Los de Montemorelos'",
+      nombre: "EMPALMES DE ATROPELLADO DE MONTEMORELOS",
       descripcion:
-        "Atropellado-style dish with freshly made adobo tortillas, black beans, NL cheese, traditional stewed dried meat with pico de gallo and borracha sauce, accompanied by 'Mamuca' guacamole.",
-      info: "2 pieces",
+        "2 pieces of run-over splice, freshly made seasoned tortilla, black beans, NL quesillo, traditional dried meat stew with pico de gallo and drunken salsa, accompanied by mamucas guacamole.",
+      info: "2 pcs",
       price: 168,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -15,10 +15,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "ESQUITES 'Teocintle, the Mother of Esquites'",
+      nombre: "ESQUITES 'Teocintle la madre del esquite'",
       descripcion:
-        "Corn sautéed with garlic, onion, and butter, flavored with epazote, served with garlic chips and fresh cheese.",
-      info: "300g",
+        "300gr of corn sautéed with garlic, onion, butter, flavored with epazote, with garlic chips, fresh cheese and grilled marrow.",
+      info: "300gr",
       price: 149,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -29,10 +29,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "REGIOS NOODLES 'Nest of Noodles'",
+      nombre: "FIDEOS REGIOS 'nido de fideos'",
       descripcion:
-        "Noodles sautéed with garlic, onion, chorizo, cooked with red sauce, covered with Indian nut powder, served with smoked mountain chili dressing and freshly made tortillas.",
-      info: "250g",
+        "250gr of noodle sautéed with garlic, onion, chorizo, cooking with red stock, yolk covered with India nut powder, accompanied by smoked mountain chili dressing and freshly made tortillas.",
+      info: "250gr",
       price: 160,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -43,10 +43,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "CHICHARRON GORDITAS IN SALSA 'The 3 Little Pigs'",
+      nombre: "GORDITAS DE CHICHARRON EN SALSA 'los 3 chanchitos'",
       descripcion:
-        "Freshly made nixtamal masa gorditas, filled with refried black beans and chicharrón in green sauce, accompanied by a salad and sprinkled with fresh cheese.",
-      info: "3 pieces",
+        "3 pieces of freshly made nixtamal dough gordita, stuffed with refried black beans, 50gr each of pork rind in stewed green sauce, accompanied by a salad and sprinkled with fresh cheese.",
+      info: "3 pcs",
       price: 170,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -57,10 +57,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "HUAJUCO GUACAMOLE 'Ear-flapped Guacamole'",
+      nombre: "GUACAMOLE HUAJUCO 'guacamole orejudo Huajuco'",
       descripcion:
-        "Traditional mashed guacamole with traditional pork rind, accompanied by roasted onions and pan-fried peppers in black sauce, served with freshly made tortillas.",
-      info: "200g",
+        "150gr of traditionally made pork rind, 200gr traditional mashed guacamole, accompanied by roasted onion and chiles in black sauce and freshly made tortillas.",
+      info: "200gr",
       price: 194,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -71,11 +71,11 @@ export const menu = {
       ],
     },
     {
-      nombre: "GRILLED VEGETABLES WITH QUESILLO",
+      nombre: "GALEANAS AL PIQUIN 'galianas de monte'",
       descripcion:
-        "Cauliflower and broccoli grilled with spices, sauced and gratinated with NL cheese, served with piquín dressing.",
-      info: "250g",
-      price: 150,
+        "250gr of Galeana potato sautéed with salt, pepper, oregano, and Rib Eye butter, seasoned with mountain piquín dressing and pumpkin seeds.",
+      info: "300gr",
+      price: 105,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -85,10 +85,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "CAULIFLOWER POPCORN",
+      nombre: "HORTALIZAS ASADAS Y QUESILLO",
       descripcion:
-        "Battered and fried cauliflower, bathed in agave honey with morita chili, toasted sesame seeds, and fried leek, served with peanut sauce.",
-      info: "300g",
+        "300gr of roasted cauliflower and broccoli with spices, seasoned and au gratin with NL quesillo, accompanied by piquín dressing.",
+      info: "300gr",
       price: 176,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -99,11 +99,11 @@ export const menu = {
       ],
     },
     {
-      nombre: "PIQUIN GALEANAS 'Mountain Galeanas'",
+      nombre: "PALOMITAS DE COLIFLOR",
       descripcion:
-        "Galeana potato sautéed with salt, pepper, oregano, and ribeye butter, sauced with mountain piquín dressing and pumpkin seeds.",
-      info: "300g",
-      price: 150,
+        "250gr of breaded and fried cauliflower, coated with an agave honey and morita chili dressing, toasted sesame seeds and fried leek, accompanied by a peanut sauce.",
+      info: "250gr",
+      price: 159,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -113,10 +113,10 @@ export const menu = {
       ],
     },
     {
-      nombre: "COLD WATER FLAMING CHEESE 'Flamed Cold Water Cheese'",
+      nombre: "QUESO FLAMEADO DE AGUA FRÍA 'quesillo agua fría flameado'",
       descripcion:
-        "Regio fresh cheese, ribeye butter, gratinated and accompanied by ranch-style chorizo sautéed with Mexican-style, sprinkled with ash.",
-      info: "200g",
+        "200gr of fresh regional cheese, Rib Eye butter, au gratin accompanied with ranch chorizo sautéed a la Mexicana, sprinkled with ash.",
+      info: "200gr",
       price: 179,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -129,15 +129,16 @@ export const menu = {
   ],
   MAINCOURSES: [
     {
-      nombre: "CHICKEN AND MOLE AHUELA RICE 'My Grandmother's Plate'",
+      nombre: "GRANDMOTHER'S CHICKEN AND MOLE RICE",
       descripcion:
-        "Chicken marinated in agave honey and morita chili paste, grilled on a bed of wedding rice, sauced with ranch mole, sautéed with flambeed apples with nuts, sweet potato fries, and plantain.",
-      info: "200g",
+        "200gr of chicken marinated in agave honey and morita chili paste, grilled, on a bed of wedding rice, seasoned with ranch mole with sautéed apple flambéed with nuts, sweet potato and plantain fries.",
+      info: "200gr",
       price: 196,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+
         "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
       ],
@@ -145,8 +146,10 @@ export const menu = {
     {
       nombre: "HUAJUCO ROAST",
       descripcion:
-        "Roast of shoulder and pork loin with the house recipe of 5 chilies and spices, wedding rice, accompanied by serrano and onion pickles in lemon juice and spices, freshly made flour tortilla with ribbing.",
-      info: "300g",
+
+        "300gr of pork shoulder and loin roast with house recipe, 5 chiles and condiments, wedding rice, accompanied by serrano and onion pickled in lemon juice and spices, freshly made flour tortilla.",
+
+      info: "300gr",
       price: 225,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -157,10 +160,11 @@ export const menu = {
       ],
     },
     {
-      nombre: "WELL BARBECUED PIT STEW",
+      nombre: "WELL BARBECUE CASSEROLE",
       descripcion:
-        "Lip barbacoa marinated in house Brown Ale beer and spices, 12-hour cooking in mesquite embers, accompanied by 'veneno' beans, pre-Hispanic sauce, garden, freshly made tortillas, and meat juice.",
-      info: "300g",
+
+        "300gr of beef lip barbecued in house Brown Ale beer and spices, 12hr cooking over mesquite embers accompanied by beans with poison, prehispanic salsa, garden, freshly made tortillas, meat broth.",
+      info: "300gr",
       price: 272,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -171,13 +175,14 @@ export const menu = {
       ],
     },
     {
-      nombre: "NORTHERN RIB EYE STEW",
+      nombre: "NORTHERN RIB EYE SLICED STEAK",
       descripcion:
-        "Ribeye confit in its own fat, with spices and a red sauce, accompanied by ranch-style rice, and chili and onion pickles, freshly made tortillas.",
-      info: "300g",
+        "300gr of Rib Eye confit in its fat, with spices with a red stock broth, accompanied by country rice, pickled chiles, onion and freshly made tortillas.",
+      info: "300gr",
       price: 255,
       imagenes: [
         "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+
         "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
         "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
@@ -1720,3 +1725,17 @@ export const menu = {
     },
   ],
 };
+
+export const NewMenu = {
+  APPETIZERS:[],
+  ALLGRILL: [],
+  MAINCOURSES: [],
+  TACOS: [],
+  DESSERTS: [],
+  SAUCES: [],
+  EXTRAS: [],
+  DRINKS: [],
+  MIX: [],
+  WINES: [],
+  DISTILLATES: [],
+}

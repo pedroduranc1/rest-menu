@@ -171,6 +171,7 @@ export const SelectedOption = ({ leng, option }) => {
                             price={plato.price}
                             imagenes={plato.imagenes}
                             descripcion={plato.descripcion}
+                            isDestilado={true}
                           />
                           <Separador />
                         </div>
