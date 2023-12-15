@@ -4,6 +4,10 @@ import { menu as MenuEn } from "../../../data/menuEn";
 import { CardPlato } from "../../ui/CardPlato";
 import { filtrarPlatosPorTipo } from "../../../utils/func";
 import { Separador } from "../../ui/Separador";
+import Botella from "../../../assets/Botella.svg";
+import Shot from "../../../assets/Shot.svg";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ImagenesPlato } from "../../ui/ImagenesPlato";
 
 export const SelectedOption = ({ leng, option }) => {
   const [MenuList, setMenuList] = useState(null);
@@ -12,6 +16,8 @@ export const SelectedOption = ({ leng, option }) => {
   const [tiposDeDestilado, settiposDeDestilado] = useState(null);
   const [IsSpecial, setIsSpecial] = useState(false);
   const [Option, setOption] = useState(null);
+  const [isBigImagen, setisBigImagen] = useState(false)
+  const [setBigImage, setsetBigImage] = useState(null)
 
   useEffect(() => {
     if (leng === "es") {
@@ -91,7 +97,12 @@ export const SelectedOption = ({ leng, option }) => {
     } else {
       setIsSpecial(false);
     }
-  }, [FilterData,Option]);
+  }, [FilterData, Option]);
+
+  const handleClickImage = (imagen) => {
+    setisBigImagen(true)
+    setBigImage(imagen)
+  }
 
   return (
     <>
@@ -111,6 +122,7 @@ export const SelectedOption = ({ leng, option }) => {
                 descripcion={plato.descripcion}
                 extra={plato?.extra}
               />
+              <ImagenesPlato imagenes={plato.imagenes}/>
               <Separador />
             </div>
           ))}
@@ -125,11 +137,11 @@ export const SelectedOption = ({ leng, option }) => {
                     ([tipo, platos], index) => (
                       <div key={index}>
                         <p>
-                        {
-                          tipo == "bebidas" && leng == "en" ? "hola" : null
-                        }
+                          {
+                            tipo == "bebidas" && leng == "en" ? "hola" : null
+                          }
                         </p>
-                        
+
                         <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
                           {tipo == "bebidas" && leng == "en" ? "drinks" : tipo}
                         </h2>
@@ -143,6 +155,8 @@ export const SelectedOption = ({ leng, option }) => {
                               imagenes={plato.imagenes}
                               descripcion={plato.descripcion}
                             />
+
+                            <ImagenesPlato imagenes={plato.imagenes} />
                             <Separador />
                           </div>
                         ))}
@@ -159,23 +173,45 @@ export const SelectedOption = ({ leng, option }) => {
                 {Object?.entries(tiposDeDestilado).map(
                   ([tipo, platos], index) => (
                     <div key={index}>
-                      <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-                        {tipo}
-                      </h2>
-                      <Separador />
-                      {platos.map((plato, platoIndex) => (
-                        <div key={platoIndex}>
-                          <CardPlato
-                            leng={leng}
-                            nombre={plato.nombre}
-                            price={plato.price}
-                            imagenes={plato.imagenes}
-                            descripcion={plato.descripcion}
-                            isDestilado={true}
-                          />
+                      <div className="w-full flex ">
+                        <div className="w-[80%] h-full">
+                          <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
+                            {tipo}
+                          </h2>
                           <Separador />
                         </div>
-                      ))}
+                        <div className="w-[20%] flex justify-around items-end mt-8 h-full p-3 ">
+                          <img src={Shot} className="w-7 h-7" alt="" />
+                          <img src={Botella} className="w-7 h-7" alt="" />
+                        </div>
+                      </div>
+
+                      <div className="w-full flex  ">
+                        <div className="w-full ">
+                          {platos.map((plato, platoIndex) => (
+                            <div className="w-full flex " key={platoIndex}>
+                              <div className="w-[80%]">
+                                <CardPlato
+                                  leng={leng}
+                                  nombre={plato.nombre}
+                                  price={plato.price}
+                                  imagenes={plato.imagenes}
+                                  descripcion={plato.descripcion}
+                                  isDestilado={true}
+                                />
+                                <ImagenesPlato imagenes={plato.imagenes} />
+                                <Separador />
+                              </div>
+                              <div className="w-[20%] flex justify-center mt-[2%] p-3 ">
+                                <span>{plato.price}$</span>
+                                <span className="mx-1">/</span>
+                                <span>{plato.descripcion.replace("Botella", "")}</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+
+                      </div>
                     </div>
                   )
                 )}
