@@ -50,7 +50,7 @@ export const ImagenesPlato = ({ imagenes }) => {
                 </div>
             ) : (
                 <div className="w-full flex space-x-2 mt-2">
-                    {imagenes.map((imagen, index) => (
+                    {imagenes?.map((imagen, index) => (
                         <div
                             key={index}
                             onClick={() => handleClickImage(imagen, index)}

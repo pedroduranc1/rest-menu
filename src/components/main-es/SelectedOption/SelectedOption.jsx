@@ -205,7 +205,7 @@ export const SelectedOption = ({ leng, option }) => {
                               <div className="w-[20%] flex justify-center mt-[2%] p-3 ">
                                 <span>{plato.price}$</span>
                                 <span className="mx-1">/</span>
-                                <span>{plato.descripcion.replace("Botella", "")}</span>
+                                <span>{plato?.descripcion?.replace("Botella", "")}</span>
                               </div>
                             </div>
                           ))}

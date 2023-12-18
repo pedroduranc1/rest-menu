@@ -1,1741 +1,829 @@
+import arra1 from "../assets/comidaImagenes/ARRACHERAALGRILL1.jpg";
+import arra2 from "../assets/comidaImagenes/ARRACHERAALGRILL2.jpg";
+import arra3 from "../assets/comidaImagenes/ARRACHERAALGRILL3.jpg";
+
+import empalmes1 from "../assets/comidaImagenes/EMPALMESDEATROPELLADO1.jpg";
+import empalmes2 from "../assets/comidaImagenes/EMPALMESDEATROPELLADO2.jpg";
+import empalmes3 from "../assets/comidaImagenes/EMPALMESDEATROPELLADO3.jpg";
+
+import esquites1 from "../assets/comidaImagenes/ESQUITES1.jpg";
+import esquites2 from "../assets/comidaImagenes/ESQUITES2.jpg";
+import esquites3 from "../assets/comidaImagenes/ESQUITES3.jpg";
+
+import fideosRegios from "../assets/comidaImagenes/FIDEOSREGIOS.jpg";
+
+import gaonerarib1 from "../assets/comidaImagenes/GAONERADERIBEYE1.jpg";
+import gaonerarib2 from "../assets/comidaImagenes/GAONERADERIBEYE2.jpg";
+import gaonerarib3 from "../assets/comidaImagenes/GAONERADERIBEYE3.jpg";
+import gaonerarib4 from "../assets/comidaImagenes/GAONERADERIBEYE4.jpg";
+
+import guacamole1 from "../assets/comidaImagenes/GUACAMOLEHUAJUCO.jpg";
+
+import hortalizas from "../assets/comidaImagenes/HORTALIZASASADASYQUESILLO.jpg";
+
+import muslitosadobados from "../assets/comidaImagenes/MUSLITOSADOBADOSALTAJIN.jpg";
+
+import palomitasdecoliflor1 from "../assets/comidaImagenes/PALOMITASDECOLIFLOR1.jpg";
+import palomitasdecoliflor2 from "../assets/comidaImagenes/PALOMITASDECOLIFLOR2.jpg";
+import palomitasdecoliflor3 from "../assets/comidaImagenes/PALOMITASDECOLIFLOR3.jpg";
+
+import quesoflameado from "../assets/comidaImagenes/QUESOFLAMEADO.jpg";
+
+import taparibeye from "../assets/comidaImagenes/TAPADERIBEYE.jpg";
+
 export const menu = {
   APPETIZERS: [
     {
-      nombre: "EMPALMES DE ATROPELLADO DE MONTEMORELOS",
-      descripcion:
-        "2 pieces of run-over splice, freshly made seasoned tortilla, black beans, NL quesillo, traditional dried meat stew with pico de gallo and drunken salsa, accompanied by mamucas guacamole.",
-      info: "2 pcs",
+      nombre: "ATROPELLADO EMPALME OF MONTEMORELO",
       price: 168,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        empalmes1,
+        empalmes2,
+        empalmes3
       ],
+      descripcion: `2 pieces of empalme de atropellado, freshly made marinated tortillas, black beans, Cheese NL., traditional dried meat stewed with pico de gallo and drunk sauce, accompanied by mamucas guacamole.`
     },
     {
-      nombre: "ESQUITES 'Teocintle la madre del esquite'",
-      descripcion:
-        "300gr of corn sautéed with garlic, onion, butter, flavored with epazote, with garlic chips, fresh cheese and grilled marrow.",
-      info: "300gr",
+      nombre: "ESQUITES “TEOCINTLE THE MOTHER OF ESQUITE”",
       price: 149,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        esquites1,
+        esquites2,
+        esquites3
       ],
+      descripcion: `300g of corn sautéed with garlic, onion, butter, flavored with epazote, with garlic chips, fresh cheese and grilled bone marrow.`
     },
     {
-      nombre: "FIDEOS REGIOS 'nido de fideos'",
-      descripcion:
-        "250gr of noodle sautéed with garlic, onion, chorizo, cooking with red stock, yolk covered with India nut powder, accompanied by smoked mountain chili dressing and freshly made tortillas.",
-      info: "250gr",
+      nombre: "REGIOS NOODLES",
       price: 160,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        fideosRegios
       ],
+      descripcion: `250gr of noodles sautéed with garlic, onion, chorizo (sausage), cooked with red sauce, yolk covered in cashew nut powder, accompanied by smoked monte chili dressing and freshly made tortillas.`
     },
     {
-      nombre: "GORDITAS DE CHICHARRON EN SALSA 'los 3 chanchitos'",
-      descripcion:
-        "3 pieces of freshly made nixtamal dough gordita, stuffed with refried black beans, 50gr each of pork rind in stewed green sauce, accompanied by a salad and sprinkled with fresh cheese.",
-      info: "3 pcs",
+      nombre: "Rib eye top",
+      price: 685,
+      descripcion: `400gr of Angus Rib Eye 3⁄4, accompanied by truffled potatoes, onion and chilies with black sauce.`
+    },
+    {
+      nombre: "PORK RIND ́S GORDITAS IN SAUCE",
       price: 170,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `3 pieces of freshly made nixtamal dough gordita, stuffed with refried black beans, 50g each of pork rind in stewed green sauce, accompanied by a salad and sprinkled with fresh cheese.`
     },
     {
-      nombre: "GUACAMOLE HUAJUCO 'guacamole orejudo Huajuco'",
-      descripcion:
-        "150gr of traditionally made pork rind, 200gr traditional mashed guacamole, accompanied by roasted onion and chiles in black sauce and freshly made tortillas.",
-      info: "200gr",
+      nombre: "GUACAMOLE HUAJUCO ‘’HUAJUCO EARED’’",
       price: 194,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `150gr of traditionally prepared pork rinds, 200gr of traditional crushed guacamole, accompanied by roasted onion and chiles toreados (chili peppers that are blistered and fried up) in black sauce and freshly made tortillas.`
     },
     {
-      nombre: "GALEANAS AL PIQUIN 'galianas de monte'",
-      descripcion:
-        "250gr of Galeana potato sautéed with salt, pepper, oregano, and Rib Eye butter, seasoned with mountain piquín dressing and pumpkin seeds.",
-      info: "300gr",
+      nombre: "GALEANAS AL PIQUÍN ‘’MOUNTAIN GALEANAS’’",
       price: 105,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `250gr of galeana potatoes sautéed with salt, pepper, oregano, and Rib Eye butter, sauced in piquín de monte dressing and seeds.`
     },
     {
-      nombre: "HORTALIZAS ASADAS Y QUESILLO",
-      descripcion:
-        "300gr of roasted cauliflower and broccoli with spices, seasoned and au gratin with NL quesillo, accompanied by piquín dressing.",
-      info: "300gr",
+      nombre: "GRILLED ARRACHERA",
+      price: 465,
+      descripcion: `500g of Angus flank steak 3⁄4, accompanied by truffled potatoes and grilled vegetables.`
+    },
+    {
+      nombre: "THIGHS MARINED WITH TAJÍN",
+      price: 295,
+      descripcion: `600gr of thighs accompanied by piquín dressing, sautéed potatoes and fried grilled onions.`
+    },
+    {
+      nombre: "MARROW",
+      price: 95,
+      descripcion: `Classic sauce of the well-known roast meats, serrano chili, tomato, garlic, onion and a dark craft beer to reduce.`
+    },
+    {
+      nombre: "ROASTED VEGETABLES AND CHEESE",
       price: 176,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `300gr of roasted cauliflower and broccoli with spices, sauced and gratin with NL cheese, accompanied by piquín dressing.`
     },
     {
-      nombre: "PALOMITAS DE COLIFLOR",
-      descripcion:
-        "250gr of breaded and fried cauliflower, coated with an agave honey and morita chili dressing, toasted sesame seeds and fried leek, accompanied by a peanut sauce.",
-      info: "250gr",
+      nombre: "CAULIFLOWER POPCORN",
       price: 159,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        palomitasdecoliflor1,
+        palomitasdecoliflor2,
+        palomitasdecoliflor3
       ],
+      descripcion: `250g of battered and fried cauliflower, dressed in agave honey with morita, toasted sesame seeds and fried leeks, accompanied by a peanut sauce.`
     },
     {
-      nombre: "QUESO FLAMEADO DE AGUA FRÍA 'quesillo agua fría flameado'",
-      descripcion:
-        "200gr of fresh regional cheese, Rib Eye butter, au gratin accompanied with ranch chorizo sautéed a la Mexicana, sprinkled with ash.",
-      info: "200gr",
+      nombre: "COLD WATER FLAMEED CHEESE",
       price: 179,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        quesoflameado
       ],
-    },
-  ],
-  MAINCOURSES: [
-    {
-      nombre: "GRANDMOTHER'S CHICKEN AND MOLE RICE",
-      descripcion:
-        "200gr of chicken marinated in agave honey and morita chili paste, grilled, on a bed of wedding rice, seasoned with ranch mole with sautéed apple flambéed with nuts, sweet potato and plantain fries.",
-      info: "200gr",
-      price: 196,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "HUAJUCO ROAST",
-      descripcion:
-
-        "300gr of pork shoulder and loin roast with house recipe, 5 chiles and condiments, wedding rice, accompanied by serrano and onion pickled in lemon juice and spices, freshly made flour tortilla.",
-
-      info: "300gr",
-      price: 225,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "WELL BARBECUE CASSEROLE",
-      descripcion:
-
-        "300gr of beef lip barbecued in house Brown Ale beer and spices, 12hr cooking over mesquite embers accompanied by beans with poison, prehispanic salsa, garden, freshly made tortillas, meat broth.",
-      info: "300gr",
-      price: 272,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "NORTHERN RIB EYE SLICED STEAK",
-      descripcion:
-        "300gr of Rib Eye confit in its fat, with spices with a red stock broth, accompanied by country rice, pickled chiles, onion and freshly made tortillas.",
-      info: "300gr",
-      price: 255,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-  ],
-  TACOS: [
-    {
-      nombre: "ARRACHER TACOS 'The Northerners'",
-      descripcion:
-        "¾ cooked skirt steak, marinated for 6 hours, grilled over mesquite wood, with a cheese base crust, accompanied by marinated pico de gallo shot and creamy avocado.",
-      info: "4 pieces of skirt steak",
-      price: 198,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "NORTHEAST-STYLE 'Norestense' PORK TACO",
-      descripcion:
-        "Marinated and confit pork, flavored with citrus and spices, accompanied by pickled sauce, creamy avocado, and crispy pork rinds.",
-      info: "4 pieces of pork",
-      price: 180,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "GIZZARD TACO",
-      descripcion:
-        "Marinated gizzards grilled over mesquite embers, sautéed in agave and guajillo adobo, accompanied by guacamole and aged chili pepper sauce.",
-      info: "3 pieces of gizzard",
-      price: 186,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      nombre: "BLACK SPIT TACO 'The Neighborhood'",
-      descripcion:
-        "Black marinated neighborhood-style spit, seared with wood, accompanied by roasted pineapple pico de gallo and classic roasted onions and galeana potatoes, peanut sauce.",
-      info: "4 pieces of spit",
-      price: 168,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
+      descripcion: `200g of royal fresh cheese, Rib Eye butter, gratin accompanied with sautéed Mexican-style ranch chorizo (sausage), sprinkled with ash.`
+    }
   ],
   ALLGRILL: [
     {
-      nombre: "RIB EYE GAONERA",
-      descripcion:
-        "Ribeye sealed on the grill, marinated in citrus juice, salt, pepper, and spices, freshly made tortilla with black beans with 'veneno,' accompanied by pico de gallo shot, 'Mamuca' guacamole, and roasted marrow with crust.",
-      info: "4 pieces of ribeye",
-      price: 235,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
       nombre: "RIB EYE CAP",
-      descripcion:
-        "Angus ¾ Rib Eye, accompanied by truffled potatoes, onions, and black pepper with black sauce.",
-      info: "400g of Rib Eye",
       price: 685,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        taparibeye
       ],
+      descripcion: `400g of 3⁄4 Angus Rib Eye, accompanied by truffled potatoes, onion and chilies with black sauce.`
     },
     {
-      nombre: "GRILLED SKIRT STEAK",
-      descripcion:
-        "¾ Angus Skirt Steak, accompanied by truffled potatoes and grilled vegetables.",
-      info: "300g of skirt steak",
+      nombre: "GRILLED ARRACHERA",
       price: 465,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        arra1,
+        arra2,
+        arra3
       ],
+      descripcion: `500g of Angus flank steak 3⁄4, accompanied by truffled potatoes and grilled vegetables.`
     },
     {
-      nombre: "TAJIN-MARINATED DRUMSTICKS",
-      descripcion:
-        "Accompanied by piquin dressing, sautéed potatoes, and fried onions.",
-      info: "500g of drumsticks",
+      nombre: "THIGHS MARINED WITH TAJÍN",
       price: 295,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        muslitosadobados
       ],
+      descripcion: `600g of thighs accompanied by piquín dressing, sautéed potatoes and fried onion.`
+    }
+  ],
+  MAINCOURSES: [
+    {
+      nombre: "CHICKEN RICE AND GRANDMA ́S MOLE",
+      price: 196,
+      descripcion: `200g of chicken marinated in agave honey and morita chili paste, grilled, on a bed of wedding rice, ranch mole sauce with sautéed apple flamed with nuts, fried sweet potato and plantain.`
     },
+    {
+      nombre: "HUAJUCO ROAST",
+      price: 225,
+      descripcion: `300g of roast pork shoulder and loin with the house recipe, 5 chilies and seasonings, wedding rice, accompanied by serrano and onion marinated in lemon juice and spices, freshly made flour tortilla with spices.`
+    },
+    {
+      nombre: "PIT BARBECUE CASSEROLE",
+      price: 272,
+      descripcion: `300gr of lip barbecue marinated in Brown Ale beer “From the house” and spices, cooked for 12 hours on mesquite grill accompanied whit poisonous beans, pre-Hispanic sauce, garden, freshly made tortillas, meat juice.`
+    },
+    {
+      nombre: "NORTHERN RIB EYE CORTADILLO",
+      price: 255,
+      descripcion: `300g of Rib Eye confit in its fat, with broth of red spice mix, accompanied by ranch rice, chili curtido, onion and freshly made tortillas.`
+    }
+  ],
+  TACOS: [
+    {
+      nombre: "ARRACHERA TACOS ‘’THE NORTHERS’’",
+      price: 198,
+      descripcion: `4 pieces- 250gr of flank steak in 3⁄4 length, marinated for 6 hours, roasted in mesquite wood, with a cheese rind base, accompanied by a shot of marinated pico de gallo and creamy avocado.`
+    },
+    {
+      nombre: "RIB EYE GAONERA",
+      price: 235,
+      imagenes: [
+        gaonerarib1,
+        gaonerarib2,
+        gaonerarib3,
+        gaonerarib4
+      ],
+      descripcion: `4 pieces- 200gr of Grilled Rib Eye marinated in citrus juice, salt, pepper and spices Freshly made tortilla with poisonous black beans accompanied by shot of pico de gallo, mamucas guacamole and roasted bone marrow with crust.`
+    },
+    {
+      nombre: "MEAT TACOS",
+      price: 180,
+      descripcion: `4pieces - 200g of marinated and confit pork, flavored with citrus and spices, accompanied by curtida sauce, creamy avocado and crunchy pork rinds.`
+    },
+    {
+      nombre: "GIZZARD TACOS",
+      price: 186,
+      descripcion: `3 pieces - 200g of gizzard marinated and roasted on mesquite grill, sautéed in agave and guajillo marinade, accompanied by guacamole and piquín chili sauce.`
+    },
+    {
+      nombre: "BLACK TOP TACO ‘’NEIGHBORHOOD TACOS’’",
+      price: 168,
+      descripcion: `4 pieces - 250gr of black marinated trompo sealed with wood, accompanied by roasted pineapple pico de gallo, classic onion, roasted galeana chips and peanut sauce.`
+    }
   ],
   DESSERTS: [
     {
-      nombre: "BANANA CHEESECAKE",
-      descripcion:
-        "Crispy wood-baked buttery cookie base, creamy cheese filling, topped with flame-roasted banana and walnut, accompanied by dulce de leche and Brown Ale sauce.",
-      info: "2 pieces",
+      nombre: "PLANTAIN CHEESECAKE",
       price: 195,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Crispy wood-baked butter cookie base, a cheese filling creamed, with banana and flamed walnut topping, accompanied by dulce de leche (caramel sauce) and Brown Ale.`
     },
     {
-      nombre: "GRILLED CHEESE 'GLORIA'",
-      descripcion:
-        "Crispy 'gloria' roll with fresh cheese, accompanied by caramelized nuts and Papantla vanilla ice cream.",
-      info: "2 pieces",
+      nombre: "GLORY WITH GRILLED CHEESE",
       price: 165,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Crispy glory roll with cheese, accompanied by caramelized walnuts and papantla snow`
     },
     {
-      nombre: "CREAM PUFFS",
-      descripcion:
-        "Fluffy cream puffs served with agave honey, hazelnut butter, mixed berry sauce, and caramel ice cream.",
-      info: "3 pieces",
+      nombre: "CREAM GORDITA",
       price: 179,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
+      descripcion: `3 pieces of spongy gorditas accompanied by agave honey, hazelnut butter, red fruit sauce and caramel snow.`
+    }
   ],
   SAUCES: [
     {
-      nombre: "NORTHERN SAUCE",
-      descripcion:
-        "Classic sauce for known grilled meats, made with serrano chili, tomato, garlic, onion, and a dark craft beer reduction.",
-      info: "2 pieces",
+      nombre: "NORTH",
       price: 45,
-
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Classic sauce of the well-known roast meats, serrano chili, tomato, garlic, onion and a dark craft beer to reduce.`
     },
     {
-      nombre: "PRE-HISPANIC SAUCE",
-      descripcion:
-        "Mixture of roasted dried chilies, meat juice, olive oil, garlic ash, and onion.",
-      info: "2 pieces",
+      nombre: "PREHISPANIC",
       price: 49,
-
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Mixture of roasted dried chili peppers, meat juice, olive oil, garlic ash and onion.`
     },
     {
-      nombre: "SMOKED SAUCE",
-      descripcion:
-        "Wood-charred tomatoes, roasted garlic, roasted onion, chiltepín chili, and a touch of avocado and fresh cilantro.",
-      info: "2 pieces",
+      nombre: "TATEMADA",
       price: 45,
-
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Wood-roasted tomato, garlic and roasted onion, chiltepin chili, a touch of avocado and fresh cilantro.`
     },
+    {
+      nombre: "Marrow Bone",
+      price: 95,
+      descripcion: `Classic sauce of the well-known roast meats, serrano chili, tomato, garlic, onion and a dark craft beer to reduce.`
+    }
   ],
   DRINKS: [
     {
-      tipo: "drinks",
-      nombre: "Soft Drinks",
+      tipo: "Bebidas",
+      nombre: "SOFT DRINKS 355ml",
       descripcion: "355ml",
-      price: 40,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 35
     },
     {
-      tipo: "drinks",
-      nombre: "Natural Lemonade",
+      tipo: "Bebidas",
+      nombre: "NATURAL LEMONADE 355ml",
       descripcion: "355ml",
-      price: 45,
-      extra: "Strawberry, red berries, mango and cucumber",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 30
     },
     {
-      tipo: "drinks",
-      nombre: "Mineral Lemonade",
+      tipo: "Bebidas",
+      nombre: "MINERAL LEMONADE 355ml",
       descripcion: "355ml",
-      price: 65,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 35
     },
     {
-      tipo: "drinks",
-      nombre: "Natural Orangeade",
+      tipo: "Bebidas",
+      nombre: "FLAVORED LEMONADE 355ml",
       descripcion: "355ml",
-      price: 45,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 60
     },
     {
-      tipo: "drinks",
-      nombre: "Mineral Orangeade",
+      tipo: "Bebidas",
+      nombre: "MINERAL WATER 355ml",
       descripcion: "355ml",
-      price: 45,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 40
     },
     {
-      tipo: "drinks",
-      nombre: "Topo Chico",
+      tipo: "Bebidas",
+      nombre: "NATURAL ORANGE JUICE",
       descripcion: "355ml",
-      price: 40,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      price: 30
     },
     {
-      tipo: "Classic",
-      nombre: "Bloody Mary",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Bebidas",
+      nombre: "MINERAL ORANGE JUICE",
+      descripcion: "355ml",
+      price: 35
     },
     {
-      tipo: "Classic",
-      nombre: "Daiquiri",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Bebidas",
+      nombre: "BOTTLE OF WATER",
+      descripcion: "355ml",
+      price: 30
     },
     {
-      tipo: "Classic",
-      nombre: "Manhattan",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "BLOODY MARY",
+      descripcion: "Clásico",
+      price: 99
     },
     {
-      tipo: "Classic",
-      nombre: "Mai Tai",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "MOJITO",
+      descripcion: "Clásico",
+      price: 99
     },
     {
-      tipo: "Classic",
-      nombre: "Margarita",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "NEGRONI",
+      descripcion: "Clásico",
+      price: 125
     },
     {
-      tipo: "Classic",
-      nombre: "Negroni",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "MOSCOW BLUE",
+      descripcion: "Clásico",
+      price: 125
     },
     {
-      tipo: "Classic",
-      nombre: "Old Fashioned",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "MARGARITA",
+      descripcion: "Clásico",
+      price: 99
     },
     {
-      tipo: "Classic",
-      nombre: "Whisky Sour",
-      descripcion: "Classic",
-      price: "Variable",
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Clasico",
+      nombre: "BLACK PEARL",
+      descripcion: "Clásico",
+      price: 125
     },
+    {
+      tipo: "Clasico",
+      nombre: "CLASSIC CARAJILLO",
+      price: 145,
+      descripcion: `Liquor 43 and espresso.`
+    },
+    {
+      tipo: "Clasico",
+      nombre: "MARZIPAN CARAJILLO",
+      price: 155,
+      descripcion: `Liqueur 43, espresso, marzipan, condensed milk and nat syrup.`
+    },
+    {
+      tipo: "Clasico",
+      nombre: "MEZCALITAS",
+      price: 149,
+      descripcion: `Jamaica, tamarind, red fruits and pineapple.`
+    }
   ],
   MIX: [
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - PALOMA NEGRA",
-      descripcion:
-        "Mezcal, lemon juice, agave honey, mint leaf, activated charcoal, and grapefruit top.",
-      price: 120,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "BLACK DOVE",
+      price: 169,
+      descripcion: `Tequila, lemon juice, agave honey, activated charcoal and fresh top.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Mojipiña",
-      descripcion:
-        "Mezcal, natural pineapple, lemon, agave honey, and chili ash.",
-      price: 110,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "RED WINE",
+      price: 149,
+      descripcion: `Lemon juice, nat syrup, tamarind vodka, sprite and red wine.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Cucumber Mojito",
-      descripcion:
-        "Mezcal, mint, natural cucumber, agave honey, and sangrita grapefruit top.",
-      price: 110,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "PREHISPANIC MEZCALITE",
+      price: 159,
+      descripcion: `Mezcal, lemon juice, orange juice and passion fruit.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Jamaican",
-      descripcion:
-        "Mezcal, agave honey, eureka lemon, natural Jamaica, and grapefruit top.",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "PEACH TEMPTATION",
+      price: 149,
+      descripcion: `Vodka, peach liqueur, lemon juice, grenadine and cranberry juice.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Apple Jarrito",
-      descripcion:
-        "Madero blanco, Topo Chico, natural grapefruit juice, Santiago apple liqueur, and agave honey.",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "SPICY MARGARITA",
+      price: 159,
+      descripcion: `Tequila, lemon juice, nat syrup, cucumber, serrano and ginger ale top.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Black Beer",
-      descripcion:
-        "Choice beer, dried meat, petroleum, charred lemon juice, wild celery, and lifting sauce.",
-      price: 100,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "NORTH CLAMATO",
+      price: 175,
+      descripcion: `Light or dark national beer, lemon juice, black sauces, dried meat and tarugo.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Mango Passion",
-      descripcion:
-        "Tequila, passion fruit, natural mango, lime juice, agave honey, mineral water, and chili powder.",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "CANTARITO HUAJUCO",
+      price: 149,
+      descripcion: `White tequila, citrus and fresh top.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Cucumber Gin",
-      descripcion: "",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Mixología",
+      nombre: "FAIR COTTON",
+      price: 175,
+      descripcion: `Gin, chartreuse, lemon juice, pineapple juice, agave nectar and cotton.`
     },
     {
-      tipo: "Mixology",
-      nombre: "House Mixology - Fruit Gin",
-      descripcion: "",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
+      tipo: "Mixología",
+      nombre: "PINK SANGRIA",
+      price: 159,
+      descripcion: `Watermelon vodka, rosé wine, lemon juice, pomegranate juice, nat syrup and sprit.`
+    }
   ],
   WINES: [
     {
-      tipo: "Wines",
-      nombre: "3v Cabernet",
-      descripcion: "",
-      price: 285,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "EL AVIÓN DE JUGUETTE (THE TOY PLANE)",
+      price: 920
     },
     {
-      tipo: "Wines",
-      nombre: "V Shiraz Rosé",
-      descripcion: "",
-      price: 244,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "EL TROMPO DE JUGUETTE (THE TOY SPINNING SPUN)",
+      price: 920
     },
     {
-      tipo: "Wines",
-      nombre: "2v Chardonnay Blanco",
-      descripcion: "",
-      price: 244,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "LA CETTO BLANC DE BLANCS",
+      price: 99
     },
     {
-      tipo: "Wines",
-      nombre: "L.A. Cetto Zinfandel",
-      descripcion: "",
-      price: 152,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "LA PIÑATA DE JUGUETTE (THE TOY PINATA)",
+      price: 920
     },
     {
-      tipo: "Wines",
-      nombre: "L.A. Cetto Merlot",
-      descripcion: "",
-      price: 143,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "MADERO 3 V",
+      price: 880
     },
     {
-      tipo: "Wines",
-      nombre: "L.A. Cetto Nebbiolo",
-      descripcion: "",
-      price: 218,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Vinos",
+      nombre: "LA CETTO MERLOT",
+      price: 99
     },
+    {
+      tipo: "Vinos",
+      nombre: "LA CETTO NEBBIOLO",
+      price: 890
+    },
+    {
+      tipo: "Vinos",
+      nombre: "LA CETTO ZINFANDEL",
+      price: 99
+    },
+    {
+      tipo: "Vinos",
+      nombre: "2V CHARDONNAY",
+      price: 890
+    },
+    {
+      tipo: "Vinos",
+      nombre: "V SHIRAZ ROSADO (PINK SHIRAZ)",
+      price: 890
+    }
   ],
   DISTILLATES: [
+    //TEQUILAS
     {
-      tipo: "Distilled - Tequila",
-      nombre: "1800 Añejo",
-      descripcion: "",
-      price: 160,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "1800 Reposado",
-      descripcion: "",
-      price: 120,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "7 Leguas Blanco",
-      descripcion: "",
+      tipo: "Destilados - Tequila",
+      nombre: "CASA DRAGONES BLANCO (WHITE DRAGONS HOUSE)",
       price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 3825$"
     },
     {
-      tipo: "Distilled - Tequila",
-      nombre: "7 Leguas Reposado",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "RESERVA DE LA FAMILIA (FAMILY RESERVE)",
+      price: 250,
+      descripcion: "Botella 3150$"
     },
     {
-      tipo: "Distilled - Tequila",
-      nombre: "Casa Dragones Blanco",
-      descripcion: "",
-      price: 295,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Cascahuin Blanco",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Cascahuin Tahona",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Don Julio 70",
-      descripcion: "",
-      price: 205,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Don Julio Reposado",
-      descripcion: "",
-      price: 160,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Herradura Reposado",
-      descripcion: "",
-      price: 150,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Herradura Ultra",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Maestro Doble Diamante",
-      descripcion: "",
+      tipo: "Destilados - Tequila",
+      nombre: "MAESTRO DOBEL DIAMANTE (MASTER DOBEL DIAMOND)",
       price: 165,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 2250$"
     },
     {
-      tipo: "Distilled - Tequila",
-      nombre: "Ocho Blanco",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Reserva de la Familia Extra Añejo",
-      descripcion: "",
-      price: 395,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Tradicional Plata",
-      descripcion: "",
-      price: 105,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Tequila",
-      nombre: "Tradicional Reposado",
-      descripcion: "",
-      price: 115,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "400 Conejos",
-      descripcion: "",
-      price: 115,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Amaras Joven",
-      descripcion: "",
+      tipo: "Destilados - Tequila",
+      nombre: "MAESTRO DOBEL PLATA (MAESTRO DOBEL SILVER )",
       price: 135,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 1650$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "Amormata",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "DON JULIO 70",
+      price: 175,
+      descripcion: "Botella 2350$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "Dos Hombres",
-      descripcion: "",
-      price: 194,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "El Tinieblo",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Guía del Alma",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Machete",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Macurichos",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "María Dolores",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Mezcal 33 Joven",
-      descripcion: "",
-      price: 203,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Mezcal 33 Reposado",
-      descripcion: "",
-      price: 340,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Mezcal",
-      nombre: "Monte Lobo Espadín",
-      descripcion: "",
+      tipo: "Destilados - Tequila",
+      nombre: "DON JULIO REPOSADO",
       price: 135,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 1750$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "Ojo de Tigre",
-      descripcion: "",
-      price: 128,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "DON JULIO BLANCO",
+      price: 125,
+      descripcion: "Botella 1550$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "Real Minero",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "HERRADURA AÑEJO (VINTAGE HORSESHOE)",
+      price: 165,
+      descripcion: "Botella 2340$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "Vago",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "HERRADURA REPOSADO",
+      price: 135,
+      descripcion: "Botella 1750$"
     },
     {
-      tipo: "Distilled - Mezcal",
-      nombre: "La Venenosa Occidental",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "1800 CRISTALINO (CRYSTALLINE)",
+      price: 165,
+      descripcion: "Botella 2250$"
     },
     {
-      tipo: "Distilled - Rum",
-      nombre: "Bacardí Blanco",
-      descripcion: "",
-      price: 100,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "1800 AÑEJO",
+      price: 150,
+      descripcion: "Botella 2150$"
     },
     {
-      tipo: "Distilled - Rum",
-      nombre: "Matusalem Platino",
-      descripcion: "",
-      price: 100,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Tequila",
+      nombre: "1800 REPOSADO",
+      price: 135,
+      descripcion: "Botella 1750$"
     },
     {
-      tipo: "Distilled - Rum",
-      nombre: "Captain Morgan",
-      descripcion: "",
-      price: 100,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Matusalem Clásico",
-      descripcion: "",
-      price: 105,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Flor de Caña 7 Years",
-      descripcion: "",
-      price: 105,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Havana Club 7 Years",
-      descripcion: "",
-      price: 118,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Zacapa 23",
-      descripcion: "",
-      price: 245,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Zacapa XO",
-      descripcion: "",
-      price: 476,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Dos Maderas 5+3",
-      descripcion: "",
-      price: 192,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Legendario 9 Years",
-      descripcion: "",
-      price: 144,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Santa Teresa",
-      descripcion: "",
-      price: 259,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Rum",
-      nombre: "Appleton Estate",
-      descripcion: "",
-      price: 110,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Gin",
-      nombre: "Bombay",
-      descripcion: "",
-      price: 120,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Gin",
-      nombre: "Hendricks",
-      descripcion: "",
-      price: 195,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Gin",
-      nombre: "Tanqueray",
-      descripcion: "",
-      price: 116,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Gin",
-      nombre: "Monkey 47",
-      descripcion: "",
-      price: 260,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Gin",
-      nombre: "Roku Gin",
-      descripcion: "",
+      tipo: "Destilados - Tequila",
+      nombre: "7 LEGUAS BLANCO",
       price: 140,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 1995$"
+    },
+    //MEZCALES
+    {
+      tipo: "Destilados - Mezcal",
+      nombre: "OJO DE TIGRE (EYE OF THE TIGER)",
+      price: 130,
+      descripcion: "Botella 2850$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Buchanan's 12",
-      descripcion: "",
-      price: 170,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Mezcal",
+      nombre: "MONTELOBOS TOBALA",
+      price: 210,
+      descripcion: "Botella 2850$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Buchanan's 18",
-      descripcion: "",
-      price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Mezcal",
+      nombre: "MONTELOBOS ESPADÍN",
+      price: 130,
+      descripcion: "Botella 1650$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "JW Black Label",
-      descripcion: "",
-      price: 180,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Mezcal",
+      nombre: "UNION JOVEN (YOUNG UNION)",
+      price: 125,
+      descripcion: "Botella 1500$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Chivas Regal",
-      descripcion: "",
+      tipo: "Destilados - Mezcal",
+      nombre: "AMARAS REPOSADO",
       price: 145,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 1850$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Jack Daniel's",
-      descripcion: "",
-      price: 120,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Mezcal",
+      nombre: "400 CONEJOS (400 RABBITS)",
+      price: 115,
+      descripcion: "Botella 1485$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Macallan 12",
-      descripcion: "",
+      tipo: "Destilados - Mezcal",
+      nombre: "AMARAS JOVEN",
+      price: 135,
+      descripcion: "Botella 1750$"
+    },
+    {
+      tipo: "Destilados - Mezcal",
+      nombre: "MEZCAL 33 JOVEN (YOUNG MEZCAL)",
+      price: 210,
+      descripcion: ""
+    },
+    {
+      tipo: "Destilados - Mezcal",
+      nombre: "MEZCAL 33 REPOSADO",
+      price: 285,
+      descripcion: ""
+    },
+    {
+      tipo: "Destilados - Mezcal",
+      nombre: "LOS DANZANTES AÑEJO",
       price: 370,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: ""
+    },
+    //RON
+    {
+      tipo: "Destilados - Ron",
+      nombre: "MATUSALEM PLATINO",
+      price: 75,
+      descripcion: "Botella 850$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Glenfiddich 12",
-      descripcion: "",
-      price: 220,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Ron",
+      nombre: "MATUSALEM CLÁSICO",
+      price: 80,
+      descripcion: "Botella 900$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Glenfiddich 18",
-      descripcion: "",
-      price: 408,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Ron",
+      nombre: "ZACAPA 23",
+      price: 185,
+      descripcion: "Botella 2450$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Crown Royal",
-      descripcion: "",
-      price: 155,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      tipo: "Destilados - Ron",
+      nombre: "ZACAPA 12",
+      price: 135,
+      descripcion: "Botella 1650$"
     },
     {
-      tipo: "Distilled - Whiskey / Bourbon",
-      nombre: "Macallan 12",
-      descripcion: "",
+      tipo: "Destilados - Ron",
+      nombre: "HAVANA CLUB 7",
+      price: 95,
+      descripcion: "Botella 1050$"
+    },
+    //GIN
+    {
+      tipo: "Destilados - Gin",
+      nombre: "BOMBAY",
+      price: 110,
+      descripcion: "Botella 1350$"
+    },
+    {
+      tipo: "Destilados - Gin",
+      nombre: "MONKEY 47",
+      price: 175,
+      descripcion: "Botella 2450$"
+    },
+    {
+      tipo: "Destilados - Gin",
+      nombre: "ROKU",
+      price: 110,
+      descripcion: "Botella 1350$"
+    },
+    //BRANDY
+    {
+      tipo: "Destilados - Brandy",
+      nombre: "TORRES 10",
+      price: 75,
+      descripcion: "Botella 850$"
+    },
+    {
+      tipo: "Destilados - Brandy",
+      nombre: "TORRES 15",
+      price: 95,
+      descripcion: "Botella 1100$"
+    },
+    //CONAG
+    {
+      tipo: "Destilados - CONAG",
+      nombre: "HENESSY VSOP",
+      price: 280,
+      secondPrice: "Botella 3915$"
+    },
+    {
+      tipo: "Destilados - CONAG",
+      nombre: "MARTELL VSOP",
+      price: 250,
+      secondPrice: "Botella 3450$"
+    },
+    //VODKA
+    {
+      tipo: "Destilados - Vodka",
+      nombre: "GREY GOOSE",
+      price: 115,
+      descripcion: "Botella 1550$"
+    },
+    {
+      tipo: "Destilados - Vodka",
+      nombre: "ABSOLUT AZUL",
       price: 0,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 850$"
     },
     {
-      tipo: "Distilled - Brandy",
-      nombre: "Torres 10",
-      descripcion: "",
+      tipo: "Destilados - Vodka",
+      nombre: "ABSOLUT RASPBERRY",
+      price: 0,
+      descripcion: "Botella 890$"
+    },
+    {
+      tipo: "Destilados - Vodka",
+      nombre: "STOLICHNAYA",
+      price: 75,
+      descripcion: "Botella 85$"
+    },
+    //WHISKEY BOURBON
+    {
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "BUCHANNA ́S 12",
+      price: 170,
+      descripcion: "Botella 2250$"
+    },
+    {
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "BUCHANNA ́S 18",
+      price: 350,
+      descripcion: ""
+    },
+    {
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "CHIVAS REGAL 12",
+      price: 170,
+      descripcion: "Botella 2250$"
+    },
+    {
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "GLENFIDDICH 12",
+      price: 180,
+      descripcion: "Botella 2500$"
+    },
+    {
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "JACK DANIEL ́S",
       price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: "Botella 1550$"
     },
     {
-      tipo: "Distilled - Brandy",
-      nombre: "Carlos I",
-      descripcion: "",
-      price: 215,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Cognac",
-      nombre: "Hennessy VSOP",
-      descripcion: "",
-      price: 265,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Cognac",
-      nombre: "Martell VSOP",
-      descripcion: "",
-      price: 225,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Vodka",
-      nombre: "Absolut Blue",
-      descripcion: "",
-      price: 100,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Vodka",
-      nombre: "Grey Goose",
-      descripcion: "",
-      price: 145,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
-    {
-      tipo: "Distilled - Vodka",
-      nombre: "Stolichnaya",
-      descripcion: "",
-      price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
-    },
+      tipo: "Destilados - WHISKEY / BOURBON",
+      nombre: "JW BLACK LABEL",
+      price: 175,
+      descripcion: "Botella 2450$"
+    }
   ],
   EXTRAS: [
     {
       nombre: "RICE",
-      descripcion:
-        "150g of homemade red rice served with mole sauce and plantain tostones.",
-      info: "2 pieces",
       price: 65,
-
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `150g of homemade red rice accompanied with mole sauce and plantain tostones (fried plantains).`
     },
     {
       nombre: "BEANS",
-      descripcion:
-        "Refried beans with a generous portion of 'veneno' (roasted pork) and Cotija cheese.",
-      info: "2 pieces",
       price: 75,
-
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `Refried beans with a good portion of poison (roast pork) and Cotija cheese.`
     },
     {
       nombre: "GUACAMOLE",
-      descripcion:
-        "250g of mashed avocado served with a garden salad and chiltepín chili and citrus sauce.",
-      info: "2 pieces",
       price: 85,
-
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        guacamole1
       ],
+      descripcion: `150g of mashed avocado accompanied by garden, chiltepin sauce and citrus fruits.`
     },
     {
-      nombre: "Marrow Bones",
-      descripcion:
-        "2 pieces of marrow bone, directly roasted over mesquite coals with butter and wheat crust, accompanied by grilled onions.",
-      info: "2 pieces",
+      nombre: "MARROW BONES",
       price: 125,
-      imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-      ],
+      descripcion: `3 pieces of canoe marrow bone roasted directly in mesquite grill with butter and crust of wheat, accompanied by roasted onions.`
     },
     {
-      nombre: "GRILLED VEGETABLES",
-      descripcion:
-        "200g of vegetables grilled over charcoal with Eureka lemon vinaigrette and olive oil.",
-      info: "2 pieces",
+      nombre: "BRAISED VEGETABLES",
       price: 85,
-
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        hortalizas
       ],
-    },
+      descripcion: `200g of grilled vegetables with eureka lemon vinaigrette and oil`
+    }
   ],
 };
 
-export const NewMenu = {
-  APPETIZERS:[],
-  ALLGRILL: [],
-  MAINCOURSES: [],
-  TACOS: [],
-  DESSERTS: [],
-  SAUCES: [],
-  EXTRAS: [],
-  DRINKS: [],
-  MIX: [],
-  WINES: [],
-  DISTILLATES: [],
-}
+// const menuNEW = [
+
+//   {
+//     section: "NATIONAL BEER",
+//     items: [
+//       {
+//         nombre: "INDIO",
+//         price: 45
+//       },
+//       {
+//         nombre: "CARTA BLANCA ( WHITE CARD)",
+//         price: 45
+//       },
+//       {
+//         nombre: "TECATE LIGHT",
+//         price: 45
+//       },
+//       {
+//         nombre: "AMSTEL ULTRA",
+//         price: 50
+//       },
+//       {
+//         nombre: "XX LAGER",
+//         price: 45
+//       },
+//       {
+//         nombre: "XX LAGER AMBAR",
+//         price: 45
+//       },
+//       {
+//         nombre: "CLEAR BOHEMIA",
+//         price: 50
+//       },
+//       {
+//         nombre: "DARK BOHEMIA",
+//         price: 50
+//       }
+//     ]
+//   },
+//   {
+//     section: "CRAFT BEER",
+//     items: [
+//       {
+//         nombre: `CRAFT BEER FROM THE HOUSE BY  ̈CERVECERÍA LA REGIA ̈ 355ml`,
+//         price: 95
+//       },
+//       {
+//         nombre: `CRAFT BEER FROM THE HOUSE BY  ̈CERVECERÍA LA REGIA ̈ 615ml`,
+//         price: 165
+//       },
+//       {
+//         nombre: `CRAFT BEER FROM THE HOUSE BY  ̈CERVECERÍA LA REGIA ̈ 1.5L`,
+//         price: 340
+//       }
+//     ]
+//   },
+
+// ];
