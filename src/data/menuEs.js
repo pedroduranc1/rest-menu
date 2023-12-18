@@ -31,6 +31,30 @@ import quesoflameado from "../assets/comidaImagenes/QUESOFLAMEADO.jpg";
 
 import taparibeye from "../assets/comidaImagenes/TAPADERIBEYE.jpg";
 
+import cantarito1 from "../assets/comidaImagenes/CANTARITOHUAJUCO1.jpg";
+import cantarito2 from "../assets/comidaImagenes/CANTARITOHUAJUCO2.jpg";
+import cantarito3 from "../assets/comidaImagenes/CANTARITOHUAJUCO3.jpg";
+
+import clamatonorte1 from "../assets/comidaImagenes/CLAMATONORTE1.jpg";
+import clamatonorte2 from "../assets/comidaImagenes/CLAMATONORTE2.jpg";
+import clamatonorte3 from "../assets/comidaImagenes/CLAMATONORTE3.jpg";
+
+import margaritaspacy from "../assets/comidaImagenes/MARGARITASPICY.jpg";
+
+import mezcalitapre from "../assets/comidaImagenes/MEZCALITAPREHISPÁNICA.jpg";
+
+import mezcalita1 from "../assets/comidaImagenes/MEZCALITAS1.jpg";
+import mezcalita2 from "../assets/comidaImagenes/MEZCALITAS2.jpg";
+
+import palomanegra1 from "../assets/comidaImagenes/PALOMANEGRA1.jpg";
+import palomanegra2 from "../assets/comidaImagenes/PALOMANEGRA2.jpg";
+import palomanegra3 from "../assets/comidaImagenes/PALOMANEGRA3.jpg";
+import palomanegra4 from "../assets/comidaImagenes/PALOMANEGRA4.jpg";
+
+import TINTODEBARRIO1 from "../assets/comidaImagenes/TINTODEBARRIO1.jpg";
+import TINTODEBARRIO2 from "../assets/comidaImagenes/TINTODEBARRIO2.jpg";
+import TINTODEBARRIO3 from "../assets/comidaImagenes/TINTODEBARRIO3.jpg";
+
 export const menu = {
   BOTANAS: [
     {
@@ -587,11 +611,7 @@ export const menu = {
       descripcion: "Clásico",
       price: 99,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        margaritaspacy
       ],
     },
     {
@@ -655,11 +675,10 @@ export const menu = {
         "Mezcal, jugo de limón, miel de agave, hoja de hierbabuena, carbón activado y top de toronja.",
       price: 120,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        palomanegra1,
+        palomanegra2,
+        palomanegra3,
+        palomanegra4
       ],
     },
     {
@@ -780,11 +799,9 @@ export const menu = {
       descripcion: "",
       price: 920,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        TINTODEBARRIO1,
+        TINTODEBARRIO2,
+        TINTODEBARRIO3
       ],
     },
     {
@@ -913,11 +930,9 @@ export const menu = {
       descripcion: "Botella 3825$",
       price: 0,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        cantarito1,
+        cantarito2,
+        cantarito3
       ],
     },
     {
@@ -1174,11 +1189,8 @@ export const menu = {
       descripcion: "",
       price: 210,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        mezcalita1,
+        mezcalita2
       ],
     },
     {
@@ -1187,11 +1199,7 @@ export const menu = {
       descripcion: "",
       price: 285,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        mezcalitapre
       ],
     },
     {
@@ -1319,11 +1327,9 @@ export const menu = {
       descripcion: "Botella 2450$",
       price: 175,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        clamatonorte1,
+        clamatonorte2,
+        clamatonorte3
       ],
     },
     {

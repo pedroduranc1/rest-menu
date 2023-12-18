@@ -31,6 +31,32 @@ import quesoflameado from "../assets/comidaImagenes/QUESOFLAMEADO.jpg";
 
 import taparibeye from "../assets/comidaImagenes/TAPADERIBEYE.jpg";
 
+import cantarito1 from "../assets/comidaImagenes/CANTARITOHUAJUCO1.jpg";
+import cantarito2 from "../assets/comidaImagenes/CANTARITOHUAJUCO2.jpg";
+import cantarito3 from "../assets/comidaImagenes/CANTARITOHUAJUCO3.jpg";
+
+import clamatonorte1 from "../assets/comidaImagenes/CLAMATONORTE1.jpg";
+import clamatonorte2 from "../assets/comidaImagenes/CLAMATONORTE2.jpg";
+import clamatonorte3 from "../assets/comidaImagenes/CLAMATONORTE3.jpg";
+
+import margaritaspacy from "../assets/comidaImagenes/MARGARITASPICY.jpg";
+
+import mezcalitapre from "../assets/comidaImagenes/MEZCALITAPREHISPÁNICA.jpg";
+
+import mezcalita1 from "../assets/comidaImagenes/MEZCALITAS1.jpg";
+import mezcalita2 from "../assets/comidaImagenes/MEZCALITAS2.jpg";
+
+import palomanegra1 from "../assets/comidaImagenes/PALOMANEGRA1.jpg";
+import palomanegra2 from "../assets/comidaImagenes/PALOMANEGRA2.jpg";
+import palomanegra3 from "../assets/comidaImagenes/PALOMANEGRA3.jpg";
+import palomanegra4 from "../assets/comidaImagenes/PALOMANEGRA4.jpg";
+
+import TINTODEBARRIO1 from "../assets/comidaImagenes/TINTODEBARRIO1.jpg";
+import TINTODEBARRIO2 from "../assets/comidaImagenes/TINTODEBARRIO2.jpg";
+import TINTODEBARRIO3 from "../assets/comidaImagenes/TINTODEBARRIO3.jpg";
+
+//../assets/comidaImagenes/
+
 export const menu = {
   APPETIZERS: [
     {
@@ -351,7 +377,13 @@ export const menu = {
       tipo: "Mixología",
       nombre: "BLACK DOVE",
       price: 169,
-      descripcion: `Tequila, lemon juice, agave honey, activated charcoal and fresh top.`
+      descripcion: `Tequila, lemon juice, agave honey, activated charcoal and fresh top.`,
+      imagenes:[
+        palomanegra1,
+        palomanegra2,
+        palomanegra3,
+        palomanegra4
+      ]
     },
     {
       tipo: "Mixología",
@@ -375,19 +407,32 @@ export const menu = {
       tipo: "Mixología",
       nombre: "SPICY MARGARITA",
       price: 159,
-      descripcion: `Tequila, lemon juice, nat syrup, cucumber, serrano and ginger ale top.`
+      descripcion: `Tequila, lemon juice, nat syrup, cucumber, serrano and ginger ale top.`,
+      imagenes:[
+        margaritaspacy
+      ]
     },
     {
       tipo: "Mixología",
       nombre: "NORTH CLAMATO",
       price: 175,
-      descripcion: `Light or dark national beer, lemon juice, black sauces, dried meat and tarugo.`
+      descripcion: `Light or dark national beer, lemon juice, black sauces, dried meat and tarugo.`,
+      imagenes:[
+        clamatonorte1,
+        clamatonorte2,
+        clamatonorte3
+      ]
     },
     {
       tipo: "Mixología",
       nombre: "CANTARITO HUAJUCO",
       price: 149,
-      descripcion: `White tequila, citrus and fresh top.`
+      descripcion: `White tequila, citrus and fresh top.`,
+      imagenes:[
+        cantarito1,
+        cantarito2,
+        cantarito3
+      ]
     },
     {
       tipo: "Mixología",
@@ -406,7 +451,12 @@ export const menu = {
     {
       tipo: "Vinos",
       nombre: "EL AVIÓN DE JUGUETTE (THE TOY PLANE)",
-      price: 920
+      price: 920,
+      imagenes:[
+        TINTODEBARRIO1,
+        TINTODEBARRIO2,
+        TINTODEBARRIO3
+      ]
     },
     {
       tipo: "Vinos",
@@ -581,13 +631,20 @@ export const menu = {
       tipo: "Destilados - Mezcal",
       nombre: "MEZCAL 33 JOVEN (YOUNG MEZCAL)",
       price: 210,
-      descripcion: ""
+      descripcion: "",
+      imagenes:[
+        mezcalita1,
+        mezcalita2
+      ]
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "MEZCAL 33 REPOSADO",
       price: 285,
-      descripcion: ""
+      descripcion: "",
+      imagenes:[
+        mezcalitapre
+      ]
     },
     {
       tipo: "Destilados - Mezcal",
