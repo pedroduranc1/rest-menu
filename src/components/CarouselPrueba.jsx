@@ -90,9 +90,9 @@ export const Carousel = ({ leng, option }) => {
     }
     const scrollInterval = setInterval(() => {
       if (isScrollingLeft && container.scrollLeft > 0) {
-        container.scrollLeft -= 55;
+        container.scrollLeft -= 85;
       } else if (isScrollingRight && !isAtScrollEnd) {
-        container.scrollLeft += 55;
+        container.scrollLeft += 85;
       }
     }, 100);
     return () => {
