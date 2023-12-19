@@ -55,6 +55,9 @@ import TINTODEBARRIO1 from "../assets/comidaImagenes/TINTODEBARRIO1.jpg";
 import TINTODEBARRIO2 from "../assets/comidaImagenes/TINTODEBARRIO2.jpg";
 import TINTODEBARRIO3 from "../assets/comidaImagenes/TINTODEBARRIO3.jpg";
 
+//VIDEO
+import gorditasNata from "../assets/videos/gorditasNata.mp4";
+
 export const menu = {
   BOTANAS: [
     {
@@ -369,11 +372,7 @@ export const menu = {
       info: "",
       price: 179,
       imagenes: [
-        "https://img.freepik.com/foto-gratis/primer-plano-carne-asada-salsa-verduras-patatas-fritas-plato-sobre-mesa_181624-35847.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24770.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/surtido-plano-deliciosa-comida-brasilena_23-2148739179.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/foto-gratis/composicion-deliciosa-comida-brasilena-alto-angulo_23-2148739223.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
-        "https://img.freepik.com/fotos-premium/picanha-patatas-fritas-ensalada-catupiry_538646-5746.jpg?size=626&ext=jpg&uid=R16606400&semt=ais",
+        gorditasNata
       ],
     },
   ],

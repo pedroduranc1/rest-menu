@@ -56,6 +56,8 @@ import TINTODEBARRIO2 from "../assets/comidaImagenes/TINTODEBARRIO2.jpg";
 import TINTODEBARRIO3 from "../assets/comidaImagenes/TINTODEBARRIO3.jpg";
 
 //../assets/comidaImagenes/
+//VIDEO
+import gorditasNata from "../assets/videos/gorditasNata.mp4";
 
 export const menu = {
   APPETIZERS: [
@@ -243,7 +245,10 @@ export const menu = {
     {
       nombre: "CREAM GORDITA",
       price: 179,
-      descripcion: `3 pieces of spongy gorditas accompanied by agave honey, hazelnut butter, red fruit sauce and caramel snow.`
+      descripcion: `3 pieces of spongy gorditas accompanied by agave honey, hazelnut butter, red fruit sauce and caramel snow.`,
+      imagenes:[
+        gorditasNata
+      ]
     }
   ],
   SAUCES: [

@@ -6,7 +6,6 @@ import { filtrarPlatosPorTipo } from "../../../utils/func";
 import { Separador } from "../../ui/Separador";
 import Botella from "../../../assets/Botella.svg";
 import Shot from "../../../assets/Shot.svg";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ImagenesPlato } from "../../ui/ImagenesPlato";
 
 export const SelectedOption = ({ leng, option }) => {

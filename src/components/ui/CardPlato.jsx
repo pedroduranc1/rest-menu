@@ -25,7 +25,7 @@ export const CardPlato = ({
             {
               !isDestilado && (
                 <h2 className="text-2xl">
-                  {price}$
+                  ${price}
                 </h2>
               )
             }
