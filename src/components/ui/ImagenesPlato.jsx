@@ -13,7 +13,7 @@ export const ImagenesPlato = ({ imagenes }) => {
     const esArchivoMP4 = (nombreArchivo) => {
         // Obtén la extensión del archivo
 
-        var extension = nombreArchivo.split('.').pop().toLowerCase();
+        var extension = nombreArchivo?.split('.').pop().toLowerCase();
 
         // Verifica si la extensión es "mp4"
         return extension === 'mp4';

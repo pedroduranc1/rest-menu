@@ -515,122 +515,122 @@ export const menu = {
       tipo: "Destilados - Tequila",
       nombre: "CASA DRAGONES BLANCO (WHITE DRAGONS HOUSE)",
       price: 0,
-      descripcion: "Botella 3825$"
+      descripcion: "Botella $3,825"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "RESERVA DE LA FAMILIA (FAMILY RESERVE)",
       price: 250,
-      descripcion: "Botella 3150$"
+      descripcion: "Botella $3,150"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "MAESTRO DOBEL DIAMANTE (MASTER DOBEL DIAMOND)",
       price: 165,
-      descripcion: "Botella 2250$"
+      descripcion: "Botella $2,250"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "MAESTRO DOBEL PLATA (MAESTRO DOBEL SILVER )",
       price: 135,
-      descripcion: "Botella 1650$"
+      descripcion: "Botella $1,650"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "DON JULIO 70",
       price: 175,
-      descripcion: "Botella 2350$"
+      descripcion: "Botella $2,350"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "DON JULIO REPOSADO",
       price: 135,
-      descripcion: "Botella 1750$"
+      descripcion: "Botella $1,750"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "DON JULIO BLANCO",
       price: 125,
-      descripcion: "Botella 1550$"
+      descripcion: "Botella $1,550"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "HERRADURA AÑEJO (VINTAGE HORSESHOE)",
       price: 165,
-      descripcion: "Botella 2340$"
+      descripcion: "Botella $2,340"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "HERRADURA REPOSADO",
       price: 135,
-      descripcion: "Botella 1750$"
+      descripcion: "Botella $1,750"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "1800 CRISTALINO (CRYSTALLINE)",
       price: 165,
-      descripcion: "Botella 2250$"
+      descripcion: "Botella $2,250"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "1800 AÑEJO",
       price: 150,
-      descripcion: "Botella 2150$"
+      descripcion: "Botella $2,150"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "1800 REPOSADO",
       price: 135,
-      descripcion: "Botella 1750$"
+      descripcion: "Botella $1,750"
     },
     {
       tipo: "Destilados - Tequila",
       nombre: "7 LEGUAS BLANCO",
       price: 140,
-      descripcion: "Botella 1995$"
+      descripcion: "Botella $1,995"
     },
     //MEZCALES
     {
       tipo: "Destilados - Mezcal",
       nombre: "OJO DE TIGRE (EYE OF THE TIGER)",
       price: 130,
-      descripcion: "Botella 2850$"
+      descripcion: "Botella $2,850"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "MONTELOBOS TOBALA",
       price: 210,
-      descripcion: "Botella 2850$"
+      descripcion: "Botella $2,850"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "MONTELOBOS ESPADÍN",
       price: 130,
-      descripcion: "Botella 1650$"
+      descripcion: "Botella $1,650"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "UNION JOVEN (YOUNG UNION)",
       price: 125,
-      descripcion: "Botella 1500$"
+      descripcion: "Botella $1,500"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "AMARAS REPOSADO",
       price: 145,
-      descripcion: "Botella 1850$"
+      descripcion: "Botella $1,850"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "400 CONEJOS (400 RABBITS)",
       price: 115,
-      descripcion: "Botella 1485$"
+      descripcion: "Botella $1,485"
     },
     {
       tipo: "Destilados - Mezcal",
       nombre: "AMARAS JOVEN",
       price: 135,
-      descripcion: "Botella 1750$"
+      descripcion: "Botella $1,750"
     },
     {
       tipo: "Destilados - Mezcal",
@@ -662,108 +662,108 @@ export const menu = {
       tipo: "Destilados - Ron",
       nombre: "MATUSALEM PLATINO",
       price: 75,
-      descripcion: "Botella 850$"
+      descripcion: "Botella $850"
     },
     {
       tipo: "Destilados - Ron",
       nombre: "MATUSALEM CLÁSICO",
       price: 80,
-      descripcion: "Botella 900$"
+      descripcion: "Botella $900"
     },
     {
       tipo: "Destilados - Ron",
       nombre: "ZACAPA 23",
       price: 185,
-      descripcion: "Botella 2450$"
+      descripcion: "Botella $2,450"
     },
     {
       tipo: "Destilados - Ron",
       nombre: "ZACAPA 12",
       price: 135,
-      descripcion: "Botella 1650$"
+      descripcion: "Botella $1,650"
     },
     {
       tipo: "Destilados - Ron",
       nombre: "HAVANA CLUB 7",
       price: 95,
-      descripcion: "Botella 1050$"
+      descripcion: "Botella $1,050"
     },
     //GIN
     {
       tipo: "Destilados - Gin",
       nombre: "BOMBAY",
       price: 110,
-      descripcion: "Botella 1350$"
+      descripcion: "Botella $1,350"
     },
     {
       tipo: "Destilados - Gin",
       nombre: "MONKEY 47",
       price: 175,
-      descripcion: "Botella 2450$"
+      descripcion: "Botella $2,450"
     },
     {
       tipo: "Destilados - Gin",
       nombre: "ROKU",
       price: 110,
-      descripcion: "Botella 1350$"
+      descripcion: "Botella $1,350"
     },
     //BRANDY
     {
       tipo: "Destilados - Brandy",
       nombre: "TORRES 10",
       price: 75,
-      descripcion: "Botella 850$"
+      descripcion: "Botella $850"
     },
     {
       tipo: "Destilados - Brandy",
       nombre: "TORRES 15",
       price: 95,
-      descripcion: "Botella 1100$"
+      descripcion: "Botella $1,100"
     },
     //CONAG
     {
       tipo: "Destilados - CONAG",
       nombre: "HENESSY VSOP",
       price: 280,
-      secondPrice: "Botella 3915$"
+      secondPrice: "Botella $3,915"
     },
     {
       tipo: "Destilados - CONAG",
       nombre: "MARTELL VSOP",
       price: 250,
-      secondPrice: "Botella 3450$"
+      secondPrice: "Botella $3,450"
     },
     //VODKA
     {
       tipo: "Destilados - Vodka",
       nombre: "GREY GOOSE",
       price: 115,
-      descripcion: "Botella 1550$"
+      descripcion: "Botella $1,550"
     },
     {
       tipo: "Destilados - Vodka",
       nombre: "ABSOLUT AZUL",
       price: 0,
-      descripcion: "Botella 850$"
+      descripcion: "Botella $850"
     },
     {
       tipo: "Destilados - Vodka",
       nombre: "ABSOLUT RASPBERRY",
       price: 0,
-      descripcion: "Botella 890$"
+      descripcion: "Botella $890"
     },
     {
       tipo: "Destilados - Vodka",
       nombre: "STOLICHNAYA",
       price: 75,
-      descripcion: "Botella 85$"
+      descripcion: "Botella $85"
     },
     //WHISKEY BOURBON
     {
       tipo: "Destilados - WHISKEY / BOURBON",
       nombre: "BUCHANNA ́S 12",
       price: 170,
-      descripcion: "Botella 2250$"
+      descripcion: "Botella $2,250"
     },
     {
       tipo: "Destilados - WHISKEY / BOURBON",
@@ -775,25 +775,25 @@ export const menu = {
       tipo: "Destilados - WHISKEY / BOURBON",
       nombre: "CHIVAS REGAL 12",
       price: 170,
-      descripcion: "Botella 2250$"
+      descripcion: "Botella $2,250"
     },
     {
       tipo: "Destilados - WHISKEY / BOURBON",
       nombre: "GLENFIDDICH 12",
       price: 180,
-      descripcion: "Botella 2500$"
+      descripcion: "Botella $2,500"
     },
     {
       tipo: "Destilados - WHISKEY / BOURBON",
       nombre: "JACK DANIEL ́S",
       price: 125,
-      descripcion: "Botella 1550$"
+      descripcion: "Botella $1,550"
     },
     {
       tipo: "Destilados - WHISKEY / BOURBON",
       nombre: "JW BLACK LABEL",
       price: 175,
-      descripcion: "Botella 2450$"
+      descripcion: "Botella $2,450"
     }
   ],
   EXTRAS: [
