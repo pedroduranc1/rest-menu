@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { CarouselCard } from "./ui/CarouselCard";
 
@@ -27,8 +27,19 @@ export const Carousel = ({ leng, option }) => {
 
   const setTipoDePlato = () => {
     let arrayPlatos = [];
-    if (leng == "es") {
+    if (leng === "es") {
       arrayPlatos = [
+        "botanas",
+        "platillos",
+        "tacos",
+        "allgrill",
+        "postres",
+        "salsas",
+        "bebidas",
+        "mixología",
+        "vinos",
+        "destilados",
+        "extras",
         "botanas",
         "platillos",
         "tacos",
@@ -55,6 +66,17 @@ export const Carousel = ({ leng, option }) => {
         "wines",
         "distillates",
         "extras",
+        "appetizers",
+        "maincourses",
+        "tacos",
+        "allgrill",
+        "desserts",
+        "sauces",
+        "drinks",
+        "mix",
+        "wines",
+        "distillates",
+        "extras",
       ];
       setTiposDePlato(arrayPlatos);
     }
@@ -66,50 +88,99 @@ export const Carousel = ({ leng, option }) => {
 
   useEffect(() => {
     const container = carousel.current;
-    const isAtScrollEnd =
-      container.scrollLeft + container.offsetWidth >= container.scrollWidth;
+    const containerWidth = container.offsetWidth;
+    const scrollEndThreshold = container.scrollWidth * 0.7; // 70% of the container width
 
-    const isAtBegining = container.scrollLeft == 0;
+    const isAtScrollEnd =
+      container.scrollLeft + containerWidth >= container.scrollWidth;
+
+    const isAtBeginning = container.scrollLeft === 0;
 
     setisFinish(isAtScrollEnd);
-    setisStarted(isAtBegining);
+    setisStarted(isAtBeginning);
+
     if (isStarted) {
       // Calcula el ancho total del contenido (3 conjuntos de elementos)
       const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
 
       // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
-      carousel.current.scrollLeft = totalWidth;
+      container.scrollLeft = totalWidth - containerWidth; // Ajuste aquí
     }
-    if (isAtScrollEnd) {
+
+    if (isAtScrollEnd && !isStarted) {
       // Llegaste al final del carrusel, vuelve al principio
       // Calcula el ancho total del contenido (3 conjuntos de elementos)
       const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
 
       // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
-      carousel.current.scrollLeft = totalWidth;
+      container.scrollLeft = totalWidth - containerWidth; // Ajuste aquí
     }
+
     const scrollInterval = setInterval(() => {
       if (isScrollingLeft && container.scrollLeft > 0) {
-        container.scrollLeft -= 85;
-      } else if (isScrollingRight && !isAtScrollEnd) {
-        container.scrollLeft += 85;
+        container.scrollLeft -= 95; // Ajusta la velocidad de desplazamiento
+      } else if (
+        isScrollingRight &&
+        container.scrollLeft + containerWidth < container.scrollWidth
+      ) {
+        container.scrollLeft += 95; // Ajusta la velocidad de desplazamiento
+      }
+
+      if (
+        container.scrollLeft + containerWidth >= scrollEndThreshold &&
+        !isFinish
+      ) {
+        // Llegaste al 70% del carrusel y no es una carga repetida, agrega más datos al TiposDePlato
+        let newData = []; // Agrega tus nuevos datos aquí
+        if (leng === "es") {
+          newData = [
+            "botanas",
+            "platillos",
+            "tacos",
+            "allgrill",
+            "postres",
+            "salsas",
+            "bebidas",
+            "mixología",
+            "vinos",
+            "destilados",
+            "extras"
+          ];
+        } else {
+          newData = [
+            "appetizers",
+            "maincourses",
+            "tacos",
+            "allgrill",
+            "desserts",
+            "sauces",
+            "drinks",
+            "mix",
+            "wines",
+            "distillates",
+            "extras"
+          ];
+        }
+        setTiposDePlato((prevData) => [...prevData, ...newData]);
+        setisFinish(true);
       }
     }, 100);
+
     return () => {
       clearInterval(scrollInterval);
     };
-  }, [isScrollingLeft, isScrollingRight, isFinish, isStarted]);
+  }, [isScrollingLeft, isScrollingRight, isFinish, isStarted, TiposDePlato]);
 
   useEffect(() => {
     // Calcula el ancho total del contenido (3 conjuntos de elementos)
     const totalWidth = cardWidth * TiposDePlato.length * setsToShow;
 
     // Establece scrollLeft al ancho total para mostrar principalmente el segundo conjunto
-    carousel.current.scrollLeft = totalWidth;
-  }, []);
+    //carousel.current.scrollLeft = totalWidth - containerWidth; // Ajuste aquí
+  }, [TiposDePlato]);
 
   return (
-    <div className="w-full bg-slate-100 my-4 flex h-[15vh]">
+    <div className="w-full bg-slate-100 my-4 flex h-[15vh] overflow-hidden">
       <div
         onMouseDown={() => setIsScrollingLeft(true)}
         onMouseUp={() => setIsScrollingLeft(false)}
@@ -120,15 +191,10 @@ export const Carousel = ({ leng, option }) => {
 
       <div
         ref={carousel}
-        className="w-full flex scroll-smooth transition-all items-center overflow-x-auto md:overflow-hidden  "
+        style={{scrollBehavior:"smooth"}}
+        className="w-full flex transition-all duration-300 ease-in-out items-center overflow-x-auto md:overflow-hidden "
       >
-        <div className="flex gap-x-1 transition-all w-fit">
-          {TiposDePlato.map((item, index) => (
-            <CarouselCard key={index} leng={leng} ruta={option} title={item} />
-          ))}
-          {TiposDePlato.map((item, index) => (
-            <CarouselCard key={index} leng={leng} ruta={option} title={item} />
-          ))}
+        <div className="flex gap-x-1 transition-all duration-300 ease-in-out w-fit">
           {TiposDePlato.map((item, index) => (
             <CarouselCard key={index} leng={leng} ruta={option} title={item} />
           ))}

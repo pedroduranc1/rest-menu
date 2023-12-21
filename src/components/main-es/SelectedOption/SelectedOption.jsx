@@ -143,6 +143,8 @@ export const SelectedOption = ({ leng, option }) => {
 
                         <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
                           {tipo == "bebidas" && leng == "en" ? "drinks" : tipo}
+
+                          {console.log(tipo)}
                         </h2>
                         <Separador />
                         {platos.map((plato, platoIndex) => (
