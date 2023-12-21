@@ -107,9 +107,17 @@ export const SelectedOption = ({ leng, option }) => {
     <>
       {FilterData && IsSpecial == false ? (
         <>
-          <h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">
-            {Option === "allgrill" ? "all grill" : Option}
-          </h2>
+          {
+            Option === "allgrill" && (<h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">all grill</h2>)
+          }
+
+{
+            Option === "mixología" && (<h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">Coctelería de la casa</h2>)
+          }
+
+          {
+            Option != "allgrill" && Option != "mixología" && (<h2 className="text-5xl mt-5 font-boowie font-bold text-color-primary uppercase">{Option}</h2>)
+          }
           <Separador />
           {FilterData.map((plato, index) => (
             <div key={index}>
@@ -121,7 +129,7 @@ export const SelectedOption = ({ leng, option }) => {
                 descripcion={plato.descripcion}
                 extra={plato?.extra}
               />
-              <ImagenesPlato imagenes={plato.imagenes}/>
+              <ImagenesPlato imagenes={plato.imagenes} />
               <Separador />
             </div>
           ))}

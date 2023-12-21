@@ -49,13 +49,13 @@ export const ImagenesPlato = ({ imagenes }) => {
     return (
         <>
             {isBigImagen && !isVideo ? (
-                <div className="w-full relative h-auto aspect-video mt-5">
+                <div className="w-full relative h-auto  mt-5">
                     <ChevronLeft
                         onClick={moverIzq}
                         className="absolute text-gray-400 w-10 h-10 cursor-pointer -left-[10%] top-[45%]"
                     />
 
-                    <div className='w-full h-[50vh] aspect-video'>
+                    <div className='w-full h-full'>
                         <Minimize2 onClick={() => setisBigImagen(false)} className='absolute top-3 w-7 h-7 p-1 bg-black/40 rounded-md text-white cursor-pointer right-3' />
                         <img key={indexImg} src={imagenes[indexImg]} className="w-full h-full" alt="" />
                     </div>
